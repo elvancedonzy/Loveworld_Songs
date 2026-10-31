@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    width: 340px;
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #1e1e2e;
+    color: #cdd6f4;
+    padding: 20px;
+  }
+  h1 { font-size: 16px; font-weight: 700; color: #cba6f7; margin-bottom: 4px; }
+  .subtitle { font-size: 12px; color: #6c7086; margin-bottom: 16px; }
+  .sites { list-style: none; }
+  .sites li {
+    display: flex; align-items: center; gap: 8px;
+    padding: 8px 0; border-bottom: 1px solid #313244;
+    font-size: 13px;
+  }
+  .sites li:last-child { border-bottom: none; }
+  .dot {
+    width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
+  }
+  .dot-song   { background: #1e66f5; }
+  .dot-ror    { background: #df8e1d; }
+  .dot-prayer { background: #40a02b; }
+  .site-name { font-weight: 600; color: #cdd6f4; }
+  .site-desc { font-size: 11px; color: #6c7086; }
+  .divider { height: 1px; background: #313244; margin: 14px 0; }
+  .instructions {
+    font-size: 12px; color: #a6adc8; line-height: 1.6;
+  }
+  .instructions strong { color: #cdd6f4; }
+  .instructions ol { padding-left: 18px; }
+  .instructions li { margin-bottom: 4px; }
+  .shortcut {
+    display: inline-block;
+    background: #313244;
+    border: 1px solid #45475a;
+    border-radius: 4px;
+    padding: 1px 6px;
+    font-size: 11px;
+    font-family: 'SF Mono', monospace;
+    color: #cdd6f4;
+  }
+</style>
+</head>
+<body>
+  <h1>Loveworld → ProPresenter</h1>
+  <div class="subtitle">Extract & format for clipboard import</div>
+
+  <ul class="sites">
+    <li>
+      <span class="dot dot-song"></span>
+      <div>
+        <div class="site-name">Songs</div>
+        <div class="site-desc">loveworldlyrics.com · loveworldmusic.org</div>
+      </div>
+    </li>
+    <li>
+      <span class="dot dot-ror"></span>
+      <div>
+        <div class="site-name">Rhapsody of Realities</div>
+        <div class="site-desc">thedevotionals.com.ng · flatimes.com</div>
+      </div>
+    </li>
+    <li>
+      <span class="dot dot-prayer"></span>
+      <div>
+        <div class="site-name">Prayer Points</div>
+        <div class="site-desc">Google Docs prayer outlines</div>
+      </div>
+    </li>
+  </ul>
+
+  <div class="divider"></div>
+
+  <div class="instructions">
+    <strong>How to use:</strong>
+    <ol>
+      <li>Open a supported page in Chrome</li>
+      <li>Click the <strong>♪</strong> button (bottom-right corner)</li>
+      <li>Review/adjust section labels if needed</li>
+      <li>Click <strong>"Copy for ProPresenter"</strong></li>
+      <li>In ProPresenter: <strong>File → Import → Text from clipboard</strong></li>
+      <li>Set: Slides delimited by <span class="shortcut">Line Break</span>, <span class="shortcut">2</span> delimiters</li>
+      <li>Click <strong>Import</strong> — groups auto-created!</li>
+    </ol>
+  </div>
+</body>
+</html>

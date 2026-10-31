@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "Loveworld → ProPresenter",
+  "version": "1.0.0",
+  "description": "Extract Loveworld songs, Rhapsody of Realities, and prayer points — formatted for ProPresenter clipboard import",
+  "permissions": [
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "https://bible-api.com/*",
+    "https://docs.google.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://loveworldlyrics.com/*",
+        "*://www.loveworldlyrics.com/*",
+        "*://loveworldmusic.org/*",
+        "*://www.loveworldmusic.org/*",
+        "*://thedevotionals.com.ng/*",
+        "*://www.thedevotionals.com.ng/*",
+        "*://flatimes.com/*",
+        "*://www.flatimes.com/*",
+        "*://docs.google.com/document/*"
+      ],
+      "js": ["content.js"],
+      "css": ["overlay.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "Loveworld → ProPresenter"
+  },
+  "icons": {}
+}
+
