@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Loveworld → ProPresenter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Extract Loveworld songs, Rhapsody of Realities, and prayer points — formatted for ProPresenter clipboard import",
   "permissions": [
     "activeTab",
@@ -22,7 +22,9 @@
         "*://www.thedevotionals.com.ng/*",
         "*://flatimes.com/*",
         "*://www.flatimes.com/*",
-        "*://docs.google.com/document/*"
+        "*://docs.google.com/document/*",
+        "https://github.com/*",
+        "https://raw.githubusercontent.com/*"
       ],
       "js": ["content.js"],
       "css": ["overlay.css"],

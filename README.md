@@ -3,7 +3,7 @@
 Tools for learning the Loveworld Singers songs and putting them into ProPresenter:
 
 - a **Claude Code skill** that tracks which songs you are learning and when to review them, and
-- a **Chrome extension** that turns a song page on loveworldlyrics.com or loveworldmusic.org into slides for ProPresenter.
+- a **Chrome extension** that turns a song page on loveworldlyrics.com or loveworldmusic.org, or a song file in the `songs/` folder on GitHub, into slides for ProPresenter.
 
 Neither one stores lyrics. You read the words on the song sites, which own them.
 

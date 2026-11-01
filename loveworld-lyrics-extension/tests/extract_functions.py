@@ -7,6 +7,7 @@ import re
 import sys
 
 FUNCS = ["fingerprint", "splitIntoSlides", "classifySections", "formatForProPresenter",
+         "lyricsFromNodes", "songFileNodes", "parseSongFile", "gitHubSongKind",
          "getLoveworldLyricsText", "lmGroupFor", "lmIsCapsHeader", "parseLoveworldMusicLyrics", "lmTitle"]
 
 src = open(sys.argv[1], encoding='utf-8').read().split('\n')

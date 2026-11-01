@@ -255,7 +255,6 @@
    *  - multiple .whitespace-pre-line with no wrapper → join them.
    *  Returns '' if nothing substantial is found. */
   function getLoveworldLyricsText() {
-    const norm = (s) => s.toLowerCase().replace(/[^\p{L}\p{N}\s]/gu, '').replace(/\s+/g, ' ').trim();
     const scroll = document.querySelector('.lyrics-scroll');
     if (scroll && scroll.children.length) {
       const isLabel = (el) => /font-semibold/.test(el.className || '') && /uppercase/.test(el.className || '')
@@ -263,7 +262,26 @@
       const nodes = [...scroll.children]
         .map(c => ({ txt: (c.innerText || '').trim(), label: isLabel(c), multi: (c.textContent || '').includes('\n') }))
         .filter(n => n.txt);
+      const out = lyricsFromNodes(nodes);
+      if (out.length > 20) return out;
+    }
+    const wpls = [...document.querySelectorAll('.whitespace-pre-line')];
+    if (wpls.length === 1) {
+      const t = (wpls[0].textContent || '').trim();
+      if (t.length > 20) return wpls[0].textContent;
+    } else if (wpls.length > 1) {
+      const joined = wpls.map(w => w.textContent || '').join('\n');
+      if (joined.trim().length > 20) return joined;
+    }
+    return '';
+  }
 
+  /** Rebuild one clean copy of a song from its .lyrics-scroll children, given as
+   *  { txt, label, multi } — label: a section-label <p>; multi: the <p> holds several lines.
+   *  Shared by the live page and by song files saved from it (see songFileNodes). */
+  function lyricsFromNodes(nodes) {
+    const norm = (s) => s.toLowerCase().replace(/[^\p{L}\p{N}\s]/gu, '').replace(/\s+/g, ' ').trim();
+    {
       // Many songs render the lyrics TWICE: one copy with a <p> per line and one with stanzas
       // grouped into multi-line <p>s — in EITHER order, and either copy may or may not carry the
       // section-label <p>s. Keep the copy with more labels (tie → the more grouped copy, which
@@ -358,22 +376,80 @@
       const isLine = (n) => n && !n.label && !n.multi;
       // A label <p> holding a section word plus a singer name ("VERSE 1 RITASOUL") gets a colon
       // so the parser reads it as a named section label instead of a lyric line.
-      const namedLabel = /^(?:verses?|chorus|pre[-\s]?chorus|bridge|refrain|intro|outro|vamp|coda|interlude)(?:\s+\d+)?\s+\S/i;
-      const text = (n) => (n.label && n.txt.length <= 30 && namedLabel.test(n.txt) && !/:$/.test(n.txt)
+      const text = (n) => (n.label && n.txt.length <= 30 && LM_NAMED_LABEL_RE.test(n.txt) && !/:$/.test(n.txt)
         && !LM_SECTION_STRICT_RE.test(n.txt)) ? n.txt + ':' : n.txt;
-      const out = kept.map((n, i) => (i === 0 ? '' : (perLine && isLine(n) && isLine(kept[i - 1]) ? '\n' : '\n\n')) + text(n))
+      return kept.map((n, i) => (i === 0 ? '' : (perLine && isLine(n) && isLine(kept[i - 1]) ? '\n' : '\n\n')) + text(n))
         .join('').trim();
-      if (out.length > 20) return out;
     }
-    const wpls = [...document.querySelectorAll('.whitespace-pre-line')];
-    if (wpls.length === 1) {
-      const t = (wpls[0].textContent || '').trim();
-      if (t.length > 20) return wpls[0].textContent;
-    } else if (wpls.length > 1) {
-      const joined = wpls.map(w => w.textContent || '').join('\n');
-      if (joined.trim().length > 20) return joined;
+  }
+
+  // ---- song files on GitHub (songs/<letter>/<title>.txt) ----
+  // Each file is "TITLE: …\nURL: …\n\n" + the .lyrics-scroll text as the page showed it:
+  // one blank-line-separated block per <p>, label <p>s in capitals (the site's CSS
+  // capitalises them), and often the same doubled copies the live page has.
+
+  /** Turn a saved song body back into lyricsFromNodes() input: one node per block.
+   *  A one-line block in capitals was a label <p> on the page — section words, but also
+   *  cues like "ALL" and shouted lines — so it is a label here too. */
+  function songFileNodes(body) {
+    return body.split(/\n[ \t]*\n/).map(b => b.trim()).filter(Boolean).map(txt => {
+      const multi = txt.includes('\n');
+      const label = !multi && (LM_SECTION_STRICT_RE.test(txt) || (/\p{L}/u.test(txt) && txt === txt.toUpperCase()));
+      return { txt, label, multi };
+    });
+  }
+
+  /** Split a song file into { title, url, raw } — raw is the cleaned lyrics text for
+   *  parseLoveworldMusicLyrics(). fallbackTitle is used when there is no TITLE: line. */
+  function parseSongFile(fileText, fallbackTitle) {
+    const lines = fileText.replace(/^﻿/, '').replace(/\r\n?/g, '\n').split('\n');
+    let title = '', url = '', i = 0;
+    for (; i < lines.length; i++) {
+      const m = lines[i].match(/^(TITLE|URL):\s*(.*)$/);
+      if (!m) break;
+      if (m[1] === 'TITLE') title = m[2].trim(); else url = m[2].trim();
     }
-    return '';
+    const body = lines.slice(i).join('\n').trim();
+    const raw = lyricsFromNodes(songFileNodes(body));
+    return { title: title || fallbackTitle || 'Untitled Song', url, raw: raw.length > 20 ? raw : body };
+  }
+
+  /** 'blob' for a song file page on github.com, 'raw' for the raw file, else null.
+   *  A song file is any .txt inside a songs/ folder, so forks of the repo work too. */
+  function gitHubSongKind(host, pathname) {
+    let path = pathname;
+    try { path = decodeURIComponent(pathname); } catch (e) { /* keep as is */ }
+    if (!/\/songs\/.+\.txt$/i.test(path)) return null;
+    if (host === 'github.com' && /^\/[^/]+\/[^/]+\/blob\//.test(path)) return 'blob';
+    if (host === 'raw.githubusercontent.com') return 'raw';
+    return null;
+  }
+
+  async function extractGitHubSong() {
+    const kind = gitHubSongKind(location.hostname, location.pathname);
+    let text = '';
+    if (kind === 'raw') {
+      // Only the file's <pre>: <body> also holds this extension's own button and panel.
+      text = document.querySelector('body > pre')?.textContent || '';
+    } else {
+      // The raw file is the exact current file, even after GitHub swapped pages without a reload.
+      try {
+        const resp = await fetch(location.pathname.replace(/^(\/[^/]+\/[^/]+)\/blob\//, '$1/raw/'));
+        if (resp.ok) text = await resp.text();
+      } catch (e) { /* fall back to the page */ }
+      if (!text.trim()) text = document.getElementById('read-only-cursor-text-area')?.value || '';
+    }
+    if (!text.trim()) return null;
+
+    let name = location.pathname.split('/').pop();
+    try { name = decodeURIComponent(name); } catch (e) { /* keep as is */ }
+    const file = parseSongFile(text, name.replace(/\.txt$/i, ''));
+    const parsed = parseLoveworldMusicLyrics(file.raw);
+    if (parsed.hasLabels && parsed.sections.length) {
+      return { type: 'song', title: file.title, sections: parsed.sections, stanzas: parsed.stanzas };
+    }
+    if (parsed.stanzas.length) return { type: 'song', title: file.title, stanzas: parsed.stanzas };
+    return null;
   }
 
   // ---- loveworldlyrics.com ----
@@ -429,6 +505,8 @@
   // [+/alternate, e.g. "REFRAIN/PAN"] [+performers] [+annotation] [+colon].
   const LM_SECTION_STRICT_RE = new RegExp(
     `^\\(?\\s*(${LM_SECTION_WORDS})(?:\\s*:?\\s*(\\d+))?(?:\\s*/\\s*[a-z0-9]+(?:\\s+\\d+)?)?(?:\\s+${LM_PERFORMERS})?${LM_ANNOT}\\s*\\)?\\s*:?\\s*$`, 'i');
+  // A label <p> holding a section word plus a singer name, without the colon: "VERSE 1 RITASOUL".
+  const LM_NAMED_LABEL_RE = /^(?:verses?|chorus|pre[-\s]?chorus|bridge|refrain|intro|outro|vamp|coda|interlude)(?:\s+\d+)?\s+\S/i;
   // Named section label: section [+number] + arbitrary singer name, REQUIRES trailing colon.
   const LM_SECTION_NAMED_RE = new RegExp(
     `^(${LM_SECTION_WORDS})(?:\\s+(\\d+))?\\s+\\S[^\\n]{0,24}:\\s*$`, 'i');
@@ -622,6 +700,17 @@
     // happens to look like a label flipping an unlabeled song into "labeled"),
     // or one label on the song's first line, which can't be a stray lyric.
     const hasLabels = labelCount >= 2 || (labelCount === 1 && firstIsLabel === true);
+    // A lone INTRO label at the top covers the opening stanza, not the whole song: the
+    // rest is grouped by repetition. One stanza in all (no breaks) → no labels to trust.
+    if (labelCount === 1 && firstIsLabel === true && ctx.words.size === 1 && ctx.words.has('intro')) {
+      const st = stanzas.filter(s => s.trim());
+      if (st.length < 2) return { sections: [], stanzas: st, hasLabels: false };
+      return {
+        sections: [{ group: 'Intro', text: st[0] }].concat(classifySections(st.slice(1)).map(s => ({ group: s.group, text: s.text }))),
+        stanzas: st,
+        hasLabels: true
+      };
+    }
     return {
       sections: sections.filter(s => s.text.trim()).map(s => ({ group: s.group, text: s.text })),
       stanzas: stanzas.filter(s => s.trim()),
@@ -1034,11 +1123,13 @@
 
     try {
       const site = detectSite();
+      const startedOn = location.pathname;
       let data;
 
       switch (site) {
         case 'loveworldlyrics': data = extractLoveworldLyrics(); break;
         case 'loveworldmusic':  data = await extractLoveworldMusic();  break;
+        case 'github-song':     data = await extractGitHubSong();      break;
         case 'ror-devotionals': data = extractROR_Devotionals(); break;
         case 'ror-flatimes':    data = extractROR_Flatimes();    break;
         case 'gdocs-prayer':    data = await extractGDocsPrayer();  break;
@@ -1046,6 +1137,9 @@
           setStatus('This site is not supported.', 'error');
           return;
       }
+
+      // The page changed while reading (single-page sites): drop the old song.
+      if (location.pathname !== startedOn) return;
 
       if (!data) {
         setStatus('Could not find content on this page.', 'error');
@@ -1442,10 +1536,43 @@
     if (host === 'thedevotionals.com.ng') return 'ror-devotionals';
     if (host === 'flatimes.com') return 'ror-flatimes';
     if (host === 'docs.google.com' && location.pathname.includes('/document/')) return 'gdocs-prayer';
+    if (gitHubSongKind(host, location.pathname)) return 'github-song';
     return null;
   }
 
+  /** github.com swaps pages without reloading (and sometimes replaces <body>), so the
+   *  script runs on every GitHub page and shows the button only on a song file. */
+  function watchGitHub() {
+    // The path only: clicking a line number adds #L3, which must not reset the panel.
+    let lastPath = null;
+    const sync = () => {
+      const onSong = detectSite() === 'github-song';
+      if (location.pathname !== lastPath) {
+        lastPath = location.pathname;
+        panelState = { open: false, data: null, sections: null, maxLines: DEFAULT_MAX_LINES, outputText: '' };
+        document.getElementById('lwpp-panel')?.classList.remove('open');
+      }
+      if (onSong) {
+        createFAB();
+        createPanel();
+      } else {
+        document.getElementById('lwpp-fab')?.remove();
+        document.getElementById('lwpp-panel')?.remove();
+      }
+    };
+    sync();
+    new MutationObserver(() => {
+      const onSong = detectSite() === 'github-song';
+      if (location.pathname !== lastPath || onSong !== !!document.getElementById('lwpp-fab')) sync();
+    }).observe(document.documentElement, { childList: true, subtree: true });
+    window.addEventListener('popstate', sync);
+  }
+
   function init() {
+    if (location.hostname === 'github.com') {
+      watchGitHub();
+      return;
+    }
     const site = detectSite();
     if (!site) return;
 
