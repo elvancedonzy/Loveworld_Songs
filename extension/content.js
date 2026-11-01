@@ -53,9 +53,35 @@
       if (c >= 2 && c > chorusN) { chorusFp = f; chorusN = c; }
     }
 
+    // No stanza repeats word for word: look for a chorus sung again with words or a line
+    // added. Two stanzas of 2+ lines match when every word of one is in the other and they
+    // share ≥80% of their words. A swapped word (verses differing only by a name) is not a
+    // match. Takes the largest such group, the earliest on a tie, and only when at least
+    // one multi-line stanza is left over as a verse.
+    let nearChorus = null;
+    if (!chorusFp) {
+      const words = fps.map(f => new Set(f.split(' ').filter(Boolean)));
+      const multi = stanzas.map(s => s.split('\n').length >= 2);
+      const addedTo = (a, b) => {
+        const [small, big] = a.size <= b.size ? [a, b] : [b, a];
+        for (const w of small) if (!big.has(w)) return false;
+        return small.size / Math.max(1, big.size) >= 0.8;
+      };
+      for (let i = 0; i < fps.length; i++) {
+        if (!multi[i]) continue;
+        const group = [i];
+        for (let j = 0; j < fps.length; j++) {
+          if (j !== i && multi[j] && addedTo(words[i], words[j])) group.push(j);
+        }
+        if (group.length >= 2 && (!nearChorus || group.length > nearChorus.size)) nearChorus = new Set(group);
+      }
+      if (nearChorus && nearChorus.size >= multi.filter(Boolean).length) nearChorus = null;
+      if (nearChorus) chorusFp = fps[[...nearChorus][0]];
+    }
+
     // Chorus partner: the fp that most often immediately follows the chorus fp
     let partnerFp = null;
-    if (chorusFp) {
+    if (chorusFp && !nearChorus) {
       const follows = {};
       for (let i = 0; i < fps.length - 1; i++) {
         if (fps[i] === chorusFp) {
@@ -71,8 +97,8 @@
     }
 
     // Label chorus / partner
-    const labels = fps.map(f => {
-      if (chorusFp && f === chorusFp) return 'CHORUS_A';
+    const labels = fps.map((f, i) => {
+      if (nearChorus ? nearChorus.has(i) : (chorusFp && f === chorusFp)) return 'CHORUS_A';
       if (partnerFp && f === partnerFp) return 'CHORUS_B';
       return null;
     });
