@@ -186,6 +186,17 @@ check('50 hymn verses differing by one swapped word stay verses', cs.map(functio
 cs = classifySections([V('v1'), 'sing it loud and clear\nwe praise your holy name today', 'sing it loud and clear\nwe praise your holy name today forever']);
 check('51 a verse plus two near-identical stanzas -> Verse 1, Chorus, Chorus', cs.map(function (x) { return x.group; }).join(',') === 'Verse 1,Chorus,Chorus', cs.map(function (x) { return x.group; }).join(','));
 cs = classifySections(['sing it loud and clear\nwe praise your holy name today', 'sing it loud and clear\nwe praise your holy name today forever']);
+// --- second spot-check (Nov 2026) ---
+g = groupsOf('VERSE\nverse a\n\nCHORUS\nchorus c\n\nVERSE\nverse b\n\nCHORUS\nchorus c\n\nVERSE\nverse a\n\nCHORUS\nchorus c');
+check('53 unnumbered VERSE sung again keeps its number', g === 'site Verse 1,Chorus,Verse 2,Chorus,Verse 1,Chorus', g);
+g = groupsOf('VERSE 1\nverse a\n\nCHORUS\nchorus c\n\nVERSE 2\nverse a');
+check('53b numbered VERSE labels are left as the site numbers them', g === 'site Verse 1,Chorus,Verse 2', g);
+g = groupsOf('VERSE\nline a\nline b\n\nSHOUT IT LOUD NOW\n\nline c\n\nCHORUS\nline d');
+check('54 lone ALL-CAPS line mid-verse stays in the verse', g === 'site Verse 1,Verse 1,Verse 1,Chorus', g);
+g = groupsOf('VERSE 1\nline a\n\nFIRST TITLE HERE\n\nline b\n\nSECOND TITLE HERE\n\nline c');
+check('54b several ALL-CAPS titles (a medley) stay titles', g === 'site Verse 1,Misc,Misc,Misc,Misc', g);
+g = groupsOf('ONLY TITLE HERE\n\nVERSE 1\nline a\n\nCHORUS\nline b');
+check('54c lone ALL-CAPS line that opens the song stays a title', g === 'site Misc,Verse 1,Chorus', g);
 check('52 only near-identical stanzas, no verse left -> left as verses', cs.map(function (x) { return x.group; }).join(',') === 'Verse 1,Verse 2', cs.map(function (x) { return x.group; }).join(','));
 
 print('\n' + P + ' passed, ' + F + ' failed');

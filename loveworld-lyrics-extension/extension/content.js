@@ -496,11 +496,14 @@
     let curStanza = [];
     let labelCount = 0;
     let prevWasLabel = false;
+    let seenContent = false;  // a lyric line (or medley title) has come before this line
+    let autoRun = 0, curAuto = 0;  // numbers the verse runs whose number we chose
     const autoVerse = { n: 0 };
 
-    // First pass: which section words the labels use, whether a "Verse 1" label exists,
-    // whether the song opens with a label, and how often each lyric line occurs.
-    const ctx = { words: new Set(), verse1: false };
+    // First pass: which section words the labels use, whether a "Verse 1" (or any numbered
+    // verse) label exists, whether the song opens with a label, and how often each lyric
+    // line occurs.
+    const ctx = { words: new Set(), verse1: false, numberedVerse: false };
     const lineSeen = {};
     let firstIsLabel = null;
     for (const line of lines) {
@@ -511,6 +514,7 @@
       if (lm) {
         const w = lm[1].toLowerCase().replace(/[\s-]/g, '');
         ctx.words.add(w);
+        if (/^verses?$/.test(w) && lm[2]) ctx.numberedVerse = true;
         if (/^verses?$/.test(w) && lm[2] === '1') ctx.verse1 = true;
       } else {
         const k = t.toLowerCase();
@@ -518,13 +522,26 @@
       }
     }
 
+    // Medley titles are standalone ALL-CAPS lines that don't repeat and don't follow a
+    // label. A labelled song with only one such line is not a medley: that line is a lyric
+    // sung in capitals, unless it opens the song or a label follows it.
+    const isLabelLine = (t) => LM_SECTION_STRICT_RE.test(t) || LM_SECTION_NAMED_RE.test(t);
+    const filled = lines.map((l, i) => i).filter(i => lines[i].trim());
+    const capsTitles = filled.filter((i, k) => lmIsCapsHeader(lines, i)
+      && (lineSeen[lines[i].trim().toLowerCase()] || 0) < 2
+      && !(k > 0 && isLabelLine(lines[filled[k - 1]].trim()))).length;
+    const loneCapsIsLyric = ctx.words.size > 0 && capsTitles === 1;
+
     const flush = () => {
       if (curStanza.length) {
         const text = curStanza.join('\n');
         // Text before the site's first label is the opening verse, or an intro when the
         // site labels a Verse 1 later on.
-        if (!curGroup) curGroup = ctx.verse1 ? 'Intro' : 'Verse ' + (++autoVerse.n);
-        sections.push({ group: curGroup, text });
+        if (!curGroup) {
+          curGroup = ctx.verse1 ? 'Intro' : 'Verse ' + (++autoVerse.n);
+          if (!ctx.verse1) curAuto = ++autoRun;
+        }
+        sections.push({ group: curGroup, text, auto: curAuto });
         stanzas.push(text);
         curStanza = [];
       }
@@ -542,8 +559,9 @@
         prevWasLabel = true;
         // "VERSE END" / "CHORUS ENDING" mark the closing section → Ending
         const afterWord = trimmed.slice(trimmed.toLowerCase().indexOf(m[1].toLowerCase()) + m[1].length);
-        curGroup = /\b(end|ending)\b/i.test(afterWord)
-          ? 'Ending' : lmGroupFor(m[1], m[2], autoVerse, ctx);
+        const isEnd = /\b(end|ending)\b/i.test(afterWord);
+        curGroup = isEnd ? 'Ending' : lmGroupFor(m[1], m[2], autoVerse, ctx);
+        curAuto = !isEnd && !m[2] && /^verses?$/i.test(m[1]) ? ++autoRun : 0;
         continue;
       }
 
@@ -557,29 +575,58 @@
       }
 
       // 3) ALL-CAPS standalone header = medley sub-song title → its own titled slide.
-      //    Not when it comes straight after a section label or repeats in the song:
+      //    Not when it comes straight after a section label or repeats in the song, or is
+      //    the lone capitals line mid-section in a labelled song (see loneCapsIsLyric):
       //    then it's a lyric line sung in capitals (e.g. a chorus's shouted line).
-      if (lmIsCapsHeader(lines, i) && !prevWasLabel && (lineSeen[trimmed.toLowerCase()] || 0) < 2) {
+      const next = lines.slice(i + 1).find(l => l.trim());
+      const titleSpot = !loneCapsIsLyric || !seenContent || (next !== undefined && isLabelLine(next.trim()));
+      if (lmIsCapsHeader(lines, i) && !prevWasLabel && (lineSeen[trimmed.toLowerCase()] || 0) < 2 && titleSpot) {
         flush();
         labelCount++;
         curGroup = 'Misc';
+        curAuto = 0;
         curStanza.push(trimmed);
         flush();
         prevWasLabel = false;
+        seenContent = true;
         continue;
       }
 
       // 4) Lyric line (minus a trailing repeat marker like "2x")
       curStanza.push(trimmed.replace(LM_TRAILING_REPEAT_RE, '') || trimmed);
       prevWasLabel = false;
+      seenContent = true;
     }
     flush();
+
+    // The site often labels every verse just "VERSE", so a verse sung again would get a
+    // new number. When no verse label carries a number, verses with identical words share
+    // one number and the different ones are numbered in order.
+    if (!ctx.numberedVerse) {
+      const runs = new Map();
+      for (const s of sections) {
+        if (!s.auto) continue;
+        if (!runs.has(s.auto)) runs.set(s.auto, []);
+        runs.get(s.auto).push(s);
+      }
+      const groupOf = {};
+      let n = 0;
+      for (const run of runs.values()) {
+        const key = run.map(s => fingerprint(s.text)).join('\n\n');
+        if (!groupOf[key]) groupOf[key] = 'Verse ' + Math.min(++n, 8);
+        for (const s of run) s.group = groupOf[key];
+      }
+    }
 
     // Require ≥2 labels to trust the site's labeling (avoids a stray line that
     // happens to look like a label flipping an unlabeled song into "labeled"),
     // or one label on the song's first line, which can't be a stray lyric.
     const hasLabels = labelCount >= 2 || (labelCount === 1 && firstIsLabel === true);
-    return { sections: sections.filter(s => s.text.trim()), stanzas: stanzas.filter(s => s.trim()), hasLabels };
+    return {
+      sections: sections.filter(s => s.text.trim()).map(s => ({ group: s.group, text: s.text })),
+      stanzas: stanzas.filter(s => s.trim()),
+      hasLabels
+    };
   }
 
   function lmTitle() {

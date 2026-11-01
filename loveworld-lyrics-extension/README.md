@@ -26,7 +26,8 @@ The site's lyric data is often messy. The extension handles:
 - **Slash labels**: labels such as "REFRAIN/PAN" are read as labels.
 - **Refrain**: a "REFRAIN" label becomes Chorus. If the song also has a Chorus label, it becomes Bridge, or Vamp when Bridge is taken too.
 - **Unlabeled opening**: lines before the site's first label become Verse 1, or Intro when the site labels a Verse 1 later.
-- **ALL-CAPS lines**: a short all-caps line on its own is read as a medley song title, unless it comes right after a section label or repeats in the song. Then it's a lyric line sung in capitals and stays in its section.
+- **ALL-CAPS lines**: a short all-caps line on its own is read as a medley song title, unless it comes right after a section label or repeats in the song. Then it's a lyric line sung in capitals and stays in its section. The same goes for the only such line in a labelled song when it sits mid-section (not opening the song, with no label after it); a medley has several titles, so medleys keep theirs.
+- **Unnumbered "VERSE" labels**: when no verse label has a number, a verse sung again with the same words keeps its first number, and the different verses are numbered in order.
 - **One label**: a song with a single label is trusted when that label is its first line, e.g. a song labelled only "CHORUS".
 - **Chorus sung with words added** (songs with no labels): when no stanza repeats word for word, stanzas of 2+ lines where one contains every word of the other, and they share at least 80% of their words, are treated as the chorus. A swapped word (verses that differ only by a name) doesn't count, and the rule is skipped if it would leave no verse.
 - **Not handled**: when the site labels only some parts, unlabeled stanzas keep the label before them, so a verse after a labelled chorus is shown as Chorus. Relabel it in the panel.
@@ -44,6 +45,6 @@ From this folder:
 python tests/run_tests.py
 ```
 
-This runs 54 offline checks against `extension/content.js` and exits 1 if any fail. It needs Python 3 and [Node.js](https://nodejs.org) on Windows, macOS or Linux; on macOS without Node it uses the built-in JavaScriptCore. On macOS and Linux, `sh tests/run-tests.sh` does the same. The test lines are invented placeholders, not real lyrics.
+This runs 59 offline checks against `extension/content.js` and exits 1 if any fail. It needs Python 3 and [Node.js](https://nodejs.org) on Windows, macOS or Linux; on macOS without Node it uses the built-in JavaScriptCore. On macOS and Linux, `sh tests/run-tests.sh` does the same. The test lines are invented placeholders, not real lyrics.
 
 `reports/` holds the results of checking every song page on loveworldlyrics.com: status, slide counts and any flags. It contains no lyrics.
