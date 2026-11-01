@@ -22,7 +22,7 @@ The per-song results are in `song-check-2026-10-31.csv`. It lists the slug, link
 
 For 1,239 songs, every word on the page appears in the output (apart from labels and cues).
 
-The other 32 songs are pages where the site has **two slightly different transcriptions** of the same song, and the extension keeps one of them. The words in the copy it doesn't use were checked by hand. They are spelling or wording differences, such as "Halleluyah" vs "Hallelujah", "forevermore" vs "forever more", "stronghold" vs "strong hold" and "gracious" vs "glorious". On one page ("Splendour") it is also the site's own promo text ("Discover more / Live Performance Videos"). These songs are marked in the CSV.
+The other 32 songs are marked in the CSV. 27 of them are pages where the site has **two slightly different transcriptions** of the same song, and the extension keeps one of them. The words in the copy it doesn't use were checked by hand. They are spelling or wording differences, such as "Halleluyah" vs "Hallelujah", "forevermore" vs "forever more", "stronghold" vs "strong hold" and "gracious" vs "glorious". On one page ("Splendour") it is also the site's own promo text ("Discover more / Live Performance Videos"). The remaining 5 carry a "singer/label cue words removed" note.
 
 ## Before vs after this update
 
