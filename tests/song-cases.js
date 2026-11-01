@@ -90,7 +90,7 @@ check('22 section labels', yesSec.every(function (x) { return LM_SECTION_STRICT_
 var noSec = ['Chorus of angels sing', 'End of the age', 'Verse by verse we read', 'Bridge over troubled', 'Tag along with me'];
 check('23 lyric lines not section labels', noSec.every(function (x) { return !LM_SECTION_STRICT_RE.test(x); }), noSec.filter(function (x) { return LM_SECTION_STRICT_RE.test(x); }).join('|'));
 var pr = parseLoveworldMusicLyrics('REFRAIN/PAN\nSoprano\nBe free\nAlto/Tenor\nBe free\nBe free');
-check('24 REFRAIN/PAN -> Bridge, voice cues stripped', pr.sections.map(function (x) { return x.group + ':' + x.text.replace(/\n/g, '/'); }).join(' ; ') === 'Bridge:Be free ; Bridge:Be free/Be free', pr.sections.map(function (x) { return x.group + ':' + x.text.replace(/\n/g, '/'); }).join(' ; '));
+check('24 REFRAIN/PAN (no Chorus label) -> Chorus, voice cues stripped', pr.sections.map(function (x) { return x.group + ':' + x.text.replace(/\n/g, '/'); }).join(' ; ') === 'Chorus:Be free ; Chorus:Be free/Be free', pr.sections.map(function (x) { return x.group + ':' + x.text.replace(/\n/g, '/'); }).join(' ; '));
 
 
 // --- (2b) labeled grouped copy, then unlabeled grouped replay in sung order  ---
@@ -146,5 +146,23 @@ check('37 "( Chorus )" style labels', brf === 'Chorus:Sing a song of morning gla
 check('38 lyric in brackets is not a label', !LM_SECTION_STRICT_RE.test('(Chorus of angels)') && !LM_SECTION_STRICT_RE.test('(Bridge over the river)'), '');
 
 check('39 "Coda: 2" / "Verse1" labels', LM_SECTION_STRICT_RE.test('Coda: 2') && LM_SECTION_STRICT_RE.test('Verse1') && LM_SECTION_STRICT_RE.test('Chorus 2x') && !LM_SECTION_STRICT_RE.test('Coda: the end of days'), '');
+
+// --- labelling fixes from the Nov 2026 spot-check ---
+function groupsOf(t) { var p = parseLoveworldMusicLyrics(t); return (p.hasLabels ? 'site ' : 'auto ') + p.sections.map(function (x) { return x.group; }).join(','); }
+var g;
+g = groupsOf('VERSE 1\nline a\nline b\n\nCHORUS\n\nSHOUT IT LOUD NOW\n\nline c\nline d\n\nSHOUT IT LOUD NOW\n\nline e');
+check('40 ALL-CAPS lyric line inside a chorus stays Chorus', g === 'site Verse 1,Chorus,Chorus,Chorus,Chorus', g);
+g = groupsOf('FIRST SONG TITLE\n\nVERSE 1\nline a\n\nSECOND SONG NAME\n\nCHORUS\nline b');
+check('41 unique ALL-CAPS medley titles still Misc', g === 'site Misc,Verse 1,Misc,Chorus', g);
+g = groupsOf('line a\nline b\n\nCHORUS\nline c\n\nVERSE\nline d');
+check('42 unlabeled opening -> Verse 1, next unnumbered VERSE -> Verse 2', g === 'site Verse 1,Chorus,Verse 2', g);
+g = groupsOf('line a\n\nVERSE 1\nline b\n\nCHORUS\nline c');
+check('43 unlabeled opening before an explicit VERSE 1 -> Intro', g === 'site Intro,Verse 1,Chorus', g);
+g = groupsOf('CHORUS\nline a\nline b');
+check('44 single label on the first line is trusted', g === 'site Chorus', g);
+g = groupsOf('line a\nCHORUS\nline b');
+check('44b single label mid-song still ignored', g.indexOf('auto ') === 0, g);
+g = [groupsOf('VERSE 1\nline a\n\nREFRAIN\nline b'), groupsOf('VERSE 1\nline a\n\nCHORUS\nline b\n\nREFRAIN\nline c'), groupsOf('CHORUS\nline a\n\nBRIDGE\nline b\n\nREFRAIN\nline c')].join(' | ');
+check('45 REFRAIN -> Chorus, or Bridge / Vamp when those are taken', g === 'site Verse 1,Chorus | site Verse 1,Chorus,Bridge | site Chorus,Bridge,Vamp', g);
 
 print('\n' + P + ' passed, ' + F + ' failed');

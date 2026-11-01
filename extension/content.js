@@ -414,11 +414,12 @@
   // Repeat instructions on their own line: "Repeat", "(Repeat chorus)", "Repeat x2", "x2", "2x".
   const LM_REPEAT_RE = new RegExp(
     `^\\(?\\s*(?:(?:repeat|rpt)\\.?(?:\\s+(?:${LM_SECTION_WORDS})(?:\\s+\\d+)?)?|x\\s*\\d+|\\d+\\s*x|twice|thrice|\\d+\\s*times)${LM_ANNOT}\\s*\\)?\\s*:?\\s*$`, 'i');
-  // Repeat marker at the end of a lyric line: "Lord we worship You 2x", "Holy (x3)", "Amen (twice)".
+  // Repeat marker at the end of a lyric line: "line one 2x", "word (x3)", "word (twice)".
   const LM_TRAILING_REPEAT_RE = /\s+(?:\(?\s*(?:x\s*\d+|\d+\s*x)\s*\)?|\(\s*(?:once|twice|thrice|\d+\s*times|repeat)\s*\))\s*$/i;
 
-  /** Map a site section word (+ optional number) to a ProPresenter group label. */
-  function lmGroupFor(word, num, autoVerse) {
+  /** Map a site section word (+ optional number) to a ProPresenter group label.
+   *  ctx.words: the section words this song's labels use (see parseLoveworldMusicLyrics). */
+  function lmGroupFor(word, num, autoVerse, ctx) {
     const w = word.toLowerCase().replace(/[\s-]/g, '');
     if (w === 'intro') return 'Intro';
     if (w === 'verse' || w === 'verses') {
@@ -428,7 +429,12 @@
     if (w === 'chorus') return 'Chorus';
     if (w === 'prechorus') return 'Pre-Chorus';
     if (w === 'bridge') return 'Bridge';
-    if (w === 'refrain') return 'Bridge';          // PP has no Refrain — Bridge is closest
+    if (w === 'refrain') {
+      // PP has no Refrain. In these songs a refrain is the chorus, unless the site also
+      // labels a Chorus; then use Bridge, or Vamp if Bridge is taken too.
+      if (!ctx || !ctx.words.has('chorus')) return 'Chorus';
+      return ctx.words.has('bridge') ? 'Vamp' : 'Bridge';
+    }
     if (w === 'coda' || w === 'end' || w === 'ending') return 'Ending';
     if (w === 'outro') return 'Outro';
     if (w === 'tag') return 'Tag';
@@ -463,12 +469,36 @@
     let curGroup = null;
     let curStanza = [];
     let labelCount = 0;
+    let prevWasLabel = false;
     const autoVerse = { n: 0 };
+
+    // First pass: which section words the labels use, whether a "Verse 1" label exists,
+    // whether the song opens with a label, and how often each lyric line occurs.
+    const ctx = { words: new Set(), verse1: false };
+    const lineSeen = {};
+    let firstIsLabel = null;
+    for (const line of lines) {
+      const t = line.trim();
+      if (!t) continue;
+      const lm = t.match(LM_SECTION_STRICT_RE) || t.match(LM_SECTION_NAMED_RE);
+      if (firstIsLabel === null) firstIsLabel = !!lm;
+      if (lm) {
+        const w = lm[1].toLowerCase().replace(/[\s-]/g, '');
+        ctx.words.add(w);
+        if (/^verses?$/.test(w) && lm[2] === '1') ctx.verse1 = true;
+      } else {
+        const k = t.toLowerCase();
+        lineSeen[k] = (lineSeen[k] || 0) + 1;
+      }
+    }
 
     const flush = () => {
       if (curStanza.length) {
         const text = curStanza.join('\n');
-        sections.push({ group: curGroup || 'Misc', text });
+        // Text before the site's first label is the opening verse, or an intro when the
+        // site labels a Verse 1 later on.
+        if (!curGroup) curGroup = ctx.verse1 ? 'Intro' : 'Verse ' + (++autoVerse.n);
+        sections.push({ group: curGroup, text });
         stanzas.push(text);
         curStanza = [];
       }
@@ -483,10 +513,11 @@
       if (m) {
         flush();
         labelCount++;
+        prevWasLabel = true;
         // "VERSE END" / "CHORUS ENDING" mark the closing section → Ending
         const afterWord = trimmed.slice(trimmed.toLowerCase().indexOf(m[1].toLowerCase()) + m[1].length);
         curGroup = /\b(end|ending)\b/i.test(afterWord)
-          ? 'Ending' : lmGroupFor(m[1], m[2], autoVerse);
+          ? 'Ending' : lmGroupFor(m[1], m[2], autoVerse, ctx);
         continue;
       }
 
@@ -499,24 +530,29 @@
         continue;
       }
 
-      // 3) ALL-CAPS standalone header = medley sub-song title → its own titled slide
-      if (lmIsCapsHeader(lines, i)) {
+      // 3) ALL-CAPS standalone header = medley sub-song title → its own titled slide.
+      //    Not when it comes straight after a section label or repeats in the song:
+      //    then it's a lyric line sung in capitals (e.g. a chorus's shouted line).
+      if (lmIsCapsHeader(lines, i) && !prevWasLabel && (lineSeen[trimmed.toLowerCase()] || 0) < 2) {
         flush();
         labelCount++;
         curGroup = 'Misc';
         curStanza.push(trimmed);
         flush();
+        prevWasLabel = false;
         continue;
       }
 
       // 4) Lyric line (minus a trailing repeat marker like "2x")
       curStanza.push(trimmed.replace(LM_TRAILING_REPEAT_RE, '') || trimmed);
+      prevWasLabel = false;
     }
     flush();
 
     // Require ≥2 labels to trust the site's labeling (avoids a stray line that
-    // happens to look like a label flipping an unlabeled song into "labeled").
-    const hasLabels = labelCount >= 2;
+    // happens to look like a label flipping an unlabeled song into "labeled"),
+    // or one label on the song's first line, which can't be a stray lyric.
+    const hasLabels = labelCount >= 2 || (labelCount === 1 && firstIsLabel === true);
     return { sections: sections.filter(s => s.text.trim()), stanzas: stanzas.filter(s => s.trim()), hasLabels };
   }
 

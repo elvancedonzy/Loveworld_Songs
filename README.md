@@ -24,6 +24,10 @@ The site's lyric data is often messy. The extension handles:
 - **Line-by-line songs**: lines are joined into blocks, so slides get up to 4 lines instead of one.
 - **Label notes**: notes like "TAKEN TWICE", "x2", "(once)", "FOUR TIMES", "In Harmony" and "VERSE END" become the right group (VERSE END → Ending).
 - **Slash labels**: labels such as "REFRAIN/PAN" are read as labels.
+- **Refrain**: a "REFRAIN" label becomes Chorus. If the song also has a Chorus label, it becomes Bridge, or Vamp when Bridge is taken too.
+- **Unlabeled opening**: lines before the site's first label become Verse 1, or Intro when the site labels a Verse 1 later.
+- **ALL-CAPS lines**: a short all-caps line on its own is read as a medley song title, unless it comes right after a section label or repeats in the song. Then it's a lyric line sung in capitals and stays in its section.
+- **One label**: a song with a single label is trusted when that label is its first line, e.g. a song labelled only "CHORUS".
 - **Singer and voice cues**: lines like "Solo:", "RESP.", "Alto/Tenor", "Pst Saki:", "Adlib: …:" and "VERSE 1 <singer>" are removed from the slides.
 - **Repeat notes**: "Repeat" or "x2" on its own line, and "2x" or "(x3)" at the end of a lyric line, are removed.
 - **Too many verses**: no more than Verse 8, since ProPresenter's groups stop there. A repeated stanza keeps its first verse number.
@@ -32,10 +36,12 @@ A section is only dropped as a duplicate when nearly every word in it already ap
 
 ## Tests
 
+From this folder:
+
 ```sh
-tests/run-tests.sh
+python tests/run_tests.py
 ```
 
-This runs 40 offline checks on macOS against `extension/content.js`. The test lines are invented placeholders, not real lyrics.
+This runs 47 offline checks against `extension/content.js` and exits 1 if any fail. It needs Python 3 and [Node.js](https://nodejs.org) on Windows, macOS or Linux; on macOS without Node it uses the built-in JavaScriptCore. On macOS and Linux, `sh tests/run-tests.sh` does the same. The test lines are invented placeholders, not real lyrics.
 
 `reports/` holds the results of checking every song page on loveworldlyrics.com: status, slide counts and any flags. It contains no lyrics.
