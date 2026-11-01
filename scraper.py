@@ -5,7 +5,7 @@ import datetime
 import pandas as pd
 from playwright.sync_api import sync_playwright
 
-# 1. Robust relative path configuration
+# Robust relative path configuration
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(BASE_DIR, "songs")
 CHANGELOG_FILE = os.path.join(BASE_DIR, "changelog.txt")
@@ -17,6 +17,23 @@ def clean_filename(title):
     cleaned = re.sub(r'[\\/*?:"<>|]', "", str(title)).strip()
     return cleaned if cleaned else "Untitled_Song"
 
+def get_song_filepath(title):
+    """Determine the alphabetical subfolder and full filepath for a song."""
+    cleaned = clean_filename(title)
+    if not cleaned:
+        first_char = "Other"
+    else:
+        fc = cleaned[0].upper()
+        if fc.isalpha():
+            first_char = fc
+        elif fc.isdigit():
+            first_char = "0-9"
+        else:
+            first_char = "Other"
+    target_dir = os.path.join(OUTPUT_DIR, first_char)
+    os.makedirs(target_dir, exist_ok=True)
+    return target_dir, os.path.join(target_dir, cleaned + ".txt")
+
 def log_changelog(message):
     """Append a timestamped message to the changelog file."""
     os.makedirs(BASE_DIR, exist_ok=True)
@@ -26,7 +43,6 @@ def log_changelog(message):
     with open(CHANGELOG_FILE, "a", encoding="utf-8") as f:
         f.write(log_entry)
 
-# 2. Content-Aware Validation (Checks if file exists AND has valid content)
 def is_valid_song_file(filepath):
     """Check if file exists and contains valid content (not empty/truncated/corrupt)."""
     if not os.path.exists(filepath):
@@ -42,7 +58,6 @@ def is_valid_song_file(filepath):
         return False
     return True
 
-# 3. Network Resiliency (Exponential Backoff Retry)
 def safe_goto(page, url, retries=3, delay=2):
     """Navigate with exponential backoff retry mechanism."""
     for attempt in range(1, retries + 1):
@@ -55,7 +70,6 @@ def safe_goto(page, url, retries=3, delay=2):
             time.sleep(delay * (2 ** (attempt - 1)))
     return False
 
-# 4. Dynamic Pagination Crawler
 def discover_new_songs(page, existing_urls):
     """Crawl pagination pages dynamically on loveworldlyrics.com to find new songs."""
     discovered = []
@@ -156,7 +170,6 @@ def main():
         log_changelog(f"Error: {CATALOGUE_CSV} not found.")
         return
 
-    # Load CSV datasets
     df_cat = pd.read_csv(CATALOGUE_CSV)
     df_lw = pd.read_csv(LW_MUSIC_CSV) if os.path.exists(LW_MUSIC_CSV) else pd.DataFrame(columns=['title', 'url'])
     
@@ -167,12 +180,10 @@ def main():
         context = browser.new_context()
         page = context.new_page()
         
-        # Collect all known URLs to prevent duplicates
         existing_urls = set(df_cat['url'].astype(str).str.rstrip('/').str.lower())
         if 'url' in df_lw.columns:
             existing_urls.update(df_lw['url'].astype(str).str.rstrip('/').str.lower())
             
-        # Discover new additions
         new_entries = discover_new_songs(page, existing_urls)
         
         if new_entries:
@@ -183,7 +194,6 @@ def main():
         else:
             log_changelog("No new songs found in online scan.")
 
-        # Process and download missing songs
         new_count = 0
         skipped_count = 0
         error_count = 0
@@ -208,10 +218,8 @@ def main():
             raw_title = task['title']
             site_type = task['type']
             
-            filename = clean_filename(raw_title) + ".txt"
-            filepath = os.path.join(OUTPUT_DIR, filename)
+            _, filepath = get_song_filepath(raw_title)
             
-            # 5. Using validation check instead of basic os.path.exists
             if is_valid_song_file(filepath):
                 skipped_count += 1
                 continue
@@ -220,10 +228,10 @@ def main():
             try:
                 page_title, content = scrape_song(url, site_type, page)
                 final_title = page_title if page_title and page_title != 'Untitled Song' else raw_title
-                filename = clean_filename(final_title) + ".txt"
-                filepath = os.path.join(OUTPUT_DIR, filename)
                 
-                with open(filepath, "w", encoding="utf-8") as f:
+                _, final_filepath = get_song_filepath(final_title)
+                
+                with open(final_filepath, "w", encoding="utf-8") as f:
                     f.write(f"TITLE: {final_title}\nURL: {url}\n\n{content}")
                 
                 new_count += 1
