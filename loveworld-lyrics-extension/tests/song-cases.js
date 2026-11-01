@@ -199,4 +199,53 @@ g = groupsOf('ONLY TITLE HERE\n\nVERSE 1\nline a\n\nCHORUS\nline b');
 check('54c lone ALL-CAPS line that opens the song stays a title', g === 'site Misc,Verse 1,Chorus', g);
 check('52 only near-identical stanzas, no verse left -> left as verses', cs.map(function (x) { return x.group; }).join(',') === 'Verse 1,Verse 2', cs.map(function (x) { return x.group; }).join(','));
 
+// --- a lone INTRO label at the top covers the opening stanza only ---
+g = groupsOf('INTRO\nline i\n\nverse a\nverse b\nverse c\nverse d\n\nchorus c\nchorus d\n\nverse e\nverse f\nverse g\nverse h\n\nchorus c\nchorus d');
+check('55 lone INTRO: Intro, then the rest grouped by repetition', g === 'site Intro,Verse 1,Chorus,Verse 2,Chorus', g);
+var pi = parseLoveworldMusicLyrics('INTRO\nline a\nline b\nline c');
+check('55b lone INTRO over one unbroken stanza: labels not trusted', !pi.hasLabels && pi.stanzas.length === 1, String(pi.hasLabels));
+g = groupsOf('INTRO\nline i\n\nVERSE 1\nverse a\n\nCHORUS\nchorus c');
+check('55c INTRO with other labels is unchanged', g === 'site Intro,Verse 1,Chorus', g);
+
+// --- song files on GitHub: "TITLE:/URL:" header + the page's .lyrics-scroll innerText ---
+function songFile(kids) {
+  return 'TITLE: Placeholder Song\nURL: https://loveworldlyrics.com/song/placeholder\n\n'
+    + kids.map(function (k) { return k.innerText; }).join('\n\n');
+}
+var fixtures = {
+  '1 per-line + grouped': [lab('VERSE 1')].concat(v1.map(s)).concat([lab('CHORUS')]).concat(ch.map(s)).concat([M.apply(null, v1), M.apply(null, ch)]),
+  '2 reverse order': [M.apply(null, v1), M.apply(null, ch), M.apply(null, v1)].concat([lab('VERSE 1')]).concat(v1.map(s)).concat([lab('CHORUS')]).concat(ch.map(s)),
+  '5 chorus repeats': [lab('VERSE 1')].concat(v1.map(s)).concat([lab('CHORUS')]).concat(ch.map(s)).concat([M.apply(null, ch), M.apply(null, ch)]),
+  '8 mixed split': kids8,
+  '10 whole song 3x': am.concat(am).concat(am),
+  '13 labeled song repeated': [lab('VERSE 1'), am[0], lab('CHORUS'), am[2], lab('VERSE 1'), am[0], lab('CHORUS'), am[2]],
+  'named label': [lab('VERSE 1 RITASOUL')].concat(v1.map(s)).concat([lab('CHORUS ALL')]).concat(ch.map(s))
+};
+Object.keys(fixtures).forEach(function (k) {
+  var page = txt(fixtures[k]);
+  var file = parseSongFile(songFile(fixtures[k])).raw;
+  check('60 file reads like the page: ' + k, file === page, file);
+});
+var sf = parseSongFile('﻿TITLE: The Placeholder\r\nURL: https://loveworldmusic.org/x\r\n\r\nVERSE 1\r\n\r\nline a\r\nline b\r\n\r\nCHORUS\r\n\r\nline c\r\nline d', 'From Name');
+check('61 header read, CRLF and BOM handled', sf.title === 'The Placeholder' && sf.url === 'https://loveworldmusic.org/x'
+  && sf.raw === 'VERSE 1\n\nline a\nline b\n\nCHORUS\n\nline c\nline d', sf.raw);
+sf = parseSongFile('line one of a stanza here\nline two\n\nline three of the next one\nline four', 'From Name');
+check('62 no header: file name is the title, text kept', sf.title === 'From Name' && sf.raw.indexOf('line one') === 0, sf.raw);
+g = groupsOf(parseSongFile(songFile([lab('VERSE 1')].concat(v1.map(s)).concat([lab('CHORUS')]).concat(ch.map(s)).concat([M.apply(null, v1), M.apply(null, ch)]))).raw);
+check('63 file labels become ProPresenter groups', g === 'site Verse 1,Chorus', g);
+g = songFileNodes('ALL\n\nVERSE 2\n\nChorus of angels singing loud\n\nBRIDGE TAKEN TWICE\n\nA LONG SHOUTED LINE THAT IS WELL OVER THIRTY LETTERS\n\n123\n\nline a\nLINE B').map(function (n) { return n.label ? 'L' : '-'; }).join('');
+check('64 one-line capitals blocks are labels, as on the page (lower case, numbers, stanzas are not)', g === 'LL-LL--', g);
+var cue = [lab('SOLO')].concat(v1.map(s)).concat([lab('ALL')]).concat(ch.map(s));
+o = parseSongFile(songFile(cue)).raw;
+check('64b a cue label between one-line paragraphs is not joined into the stanza', o === txt(cue) && o.indexOf(v1[3] + '\n\nALL') >= 0, o);
+g = [gitHubSongKind('github.com', '/elvancedonzy/Loveworld_Songs/blob/main/songs/T/The%20Only%20Mediator.txt'),
+  gitHubSongKind('github.com', '/someone/fork/blob/refs/heads/main/songs/A/A%20Song.txt'),
+  gitHubSongKind('raw.githubusercontent.com', '/elvancedonzy/Loveworld_Songs/refs/heads/main/songs/T/The%20Only%20Mediator.txt'),
+  gitHubSongKind('github.com', '/elvancedonzy/Loveworld_Songs/tree/main/songs'),
+  gitHubSongKind('github.com', '/elvancedonzy/Loveworld_Songs/blob/main/README.md'),
+  gitHubSongKind('github.com', '/elvancedonzy/Loveworld_Songs/blob/main/changelog.txt'),
+  gitHubSongKind('example.com', '/x/y/blob/main/songs/A.txt'),
+  gitHubSongKind('github.com', '/x/y/blob/main/songs/W/Who%20Is%20Like%20You%3F.txt')].join(',');
+check('65 song file pages recognised, other GitHub pages not', g === 'blob,blob,raw,,,,,blob', g);
+
 print('\n' + P + ' passed, ' + F + ' failed');

@@ -1,6 +1,6 @@
 # Loveworld → ProPresenter
 
-A Chrome extension that turns a Loveworld song page (loveworldlyrics.com, loveworldmusic.org), a Rhapsody of Realities devotional (thedevotionals.com.ng, flatimes.com) or a Google Docs prayer outline into text ready for ProPresenter's **File → Import → Text from clipboard**.
+A Chrome extension that turns a Loveworld song page (loveworldlyrics.com, loveworldmusic.org, or a saved song file on GitHub), a Rhapsody of Realities devotional (thedevotionals.com.ng, flatimes.com) or a Google Docs prayer outline into text ready for ProPresenter's **File → Import → Text from clipboard**.
 
 ## Install
 
@@ -11,6 +11,8 @@ A Chrome extension that turns a Loveworld song page (loveworldlyrics.com, lovewo
 ## Use
 
 Open a song page and click the floating button, check the labels in the panel, then press **Copy**. In ProPresenter, use **File → Import → Text from clipboard** with "Line Break" as the delimiter and 2 delimiters per slide.
+
+**Song files on GitHub.** The button also appears on any `.txt` file inside a `songs/` folder on github.com (for example `songs/T/The Only Mediator.txt` in this project's repository, or a fork of it), and on the raw view of that file. It reads the file's `TITLE:` line for the title and formats the rest the same way as the live page, including removing doubled copies and joining one-line paragraphs into stanzas. A saved file has no styling, so a one-line paragraph written in capitals is read as a label, the way the site styles its labels. A song that writes a lyric line or a medley title in capitals then gets that line on its own slide (2 of the 1,048 songs checked). GitHub changes pages without reloading, so the button shows up or disappears as you click between folders and files. After updating, press **↻ reload** on the extension card so Chrome picks up the new github.com access.
 
 The output has a blank line between slides and a group label (Verse 1–8, Chorus, Pre-Chorus, Bridge, Tag, Ending, Intro, Outro, Vamp, Instrumental, Misc) on the first slide of each group. Slides hold up to 4 lines; you can change this in the panel.
 
@@ -45,6 +47,6 @@ From this folder:
 python tests/run_tests.py
 ```
 
-This runs 59 offline checks against `extension/content.js` and exits 1 if any fail. It needs Python 3 and [Node.js](https://nodejs.org) on Windows, macOS or Linux; on macOS without Node it uses the built-in JavaScriptCore. On macOS and Linux, `sh tests/run-tests.sh` does the same. The test lines are invented placeholders, not real lyrics.
+This runs 72 offline checks against `extension/content.js` and exits 1 if any fail. It needs Python 3 and [Node.js](https://nodejs.org) on Windows, macOS or Linux; on macOS without Node it uses the built-in JavaScriptCore. On macOS and Linux, `sh tests/run-tests.sh` does the same. The test lines are invented placeholders, not real lyrics.
 
 `reports/` holds the results of checking every song page on loveworldlyrics.com: status, slide counts and any flags. It contains no lyrics.
