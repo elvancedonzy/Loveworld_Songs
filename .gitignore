@@ -1,7 +1,3 @@
-# Lyrics belong to the song sites: never commit them.
-songs/
-*.txt
-
 # Build output from package.py
 dist/
 

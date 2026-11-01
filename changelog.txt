@@ -1,0 +1,1182 @@
+[2026-11-01 07:15:33] === Script Execution Started ===
+[2026-11-01 07:15:33] Loaded 1481 songs from catalogue.csv and 18 songs from loveworldmusic-only.csv.
+[2026-11-01 07:15:34] Scanning online catalog for new songs...
+[2026-11-01 07:15:39] No new songs found in online scan.
+[2026-11-01 07:15:39] [3/1499] Downloading: A New Beginning Loveworld Kiddies
+[2026-11-01 07:15:40] [5/1499] Downloading: A New Race 2
+[2026-11-01 07:15:40] [11/1499] Downloading: Absolutely Powerful Vashuan
+[2026-11-01 07:15:40] [15/1499] Downloading: All Conquering King 2
+[2026-11-01 07:15:40] [18/1499] Downloading: Hs Oct 2026 D1 All Glorious Is Your Majesty
+[2026-11-01 07:15:40] [21/1499] Downloading: All Powerful Sophiya
+[2026-11-01 07:18:33] === Script Execution Started ===
+[2026-11-01 07:18:33] Loaded 1481 songs from catalogue.csv and 18 songs from loveworldmusic-only.csv.
+[2026-11-01 07:18:34] Scanning online catalog for new songs...
+[2026-11-01 07:18:35] No new songs found in online scan.
+[2026-11-01 07:18:35] [3/1499] Downloading: A New Beginning Loveworld Kiddies
+[2026-11-01 07:18:35] [5/1499] Downloading: A New Race 2
+[2026-11-01 07:18:36] [11/1499] Downloading: Absolutely Powerful Vashuan
+[2026-11-01 07:18:36] [15/1499] Downloading: All Conquering King 2
+[2026-11-01 07:18:36] [18/1499] Downloading: Hs Oct 2026 D1 All Glorious Is Your Majesty
+[2026-11-01 07:18:36] [21/1499] Downloading: All Powerful Sophiya
+[2026-11-01 07:18:41] [23/1499] Downloading: All Powerful God 2
+[2026-11-01 07:18:41] [27/1499] Downloading: All The Trees 2
+[2026-11-01 07:18:41] [29/1499] Downloading: All Things Are Possible 2
+[2026-11-01 07:18:42] [30/1499] Downloading: Hs Oct 2026 D3 All Things Are Possible October 2026 Healing Streams
+[2026-11-01 07:18:42] [31/1499] Downloading: All Time Wonder 3
+[2026-11-01 07:18:42] [32/1499] Downloading: All Time Wonder Obi Shine Loveworld Singers
+[2026-11-01 07:18:42] [35/1499] Downloading: All Conquering Master And Saviour
+[2026-11-01 07:18:42] [37/1499] Downloading: All Time Wonder 2
+[2026-11-01 07:18:42] [39/1499] Downloading: Almighty God 2
+[2026-11-01 07:18:43] [43/1499] Downloading: Amazing God 2
+[2026-11-01 07:18:43] [44/1499] Downloading: Amazing God 3
+[2026-11-01 07:18:43] [45/1499] Downloading: Amazing God 4
+[2026-11-01 07:18:43] [46/1499] Downloading: Amazing God Angibaj
+[2026-11-01 07:18:43] [48/1499] Downloading: Amazing Things Dcn Conrad
+[2026-11-01 07:18:48] [52/1499] Downloading: Answered Prayers 2
+[2026-11-01 07:18:48] [54/1499] Downloading: Anything Is Possible Faith Ejura
+[2026-11-01 07:18:49] [60/1499] Downloading: Associates Of The Heavenly Pantheon Vashuan
+[2026-11-01 07:18:54] [65/1499] Downloading: Awesome Majesty 2
+[2026-11-01 07:18:54] [66/1499] Downloading: Awesome Majesty 3
+[2026-11-01 07:18:54] [67/1499] Downloading: Awesome Majesty Korede
+[2026-11-01 07:18:54] [70/1499] Downloading: Be Healed In Jesus Name Faith
+[2026-11-01 07:18:54] [72/1499] Downloading: Beautiful Faith
+[2026-11-01 07:18:54] [73/1499] Downloading: Beautiful Loveworld Singers
+[2026-11-01 07:18:55] [76/1499] Downloading: Beautiful Lord Of Holiness 2
+[2026-11-01 07:18:55] [78/1499] Downloading: Beautiful Mp3
+[2026-11-01 07:18:55] [83/1499] Downloading: Blessed Be Your Holy Name 2
+[2026-11-01 07:18:55] [87/1499] Downloading: Blessed Creator Maya
+[2026-11-01 07:18:55] [89/1499] Downloading: Blessed Of The Lord Rita Soul
+[2026-11-01 07:18:55] [93/1499] Downloading: Born To Give Life Sammie And Faith Ejura
+[2026-11-01 07:18:56] [95/1499] Downloading: Boundless Love Loveworld Singers
+[2026-11-01 07:18:56] [97/1499] Downloading: Boundless Ocean Of Grace Korede
+[2026-11-01 07:18:56] [102/1499] Downloading: By Your Word 2
+[2026-11-01 07:18:56] [104/1499] Downloading: Hs Oct 2026 D1 Centre Of Your Love Hslhs October 2026 Rendition
+[2026-11-01 07:18:56] [106/1499] Downloading: Christ Is On The Way Tru South Christian K
+[2026-11-01 07:19:01] [107/1499] Downloading: Christ Our Divine Immunity 2
+[2026-11-01 07:19:02] [108/1499] Downloading: Christ Our Divine Immunity 3
+[2026-11-01 07:19:02] [115/1499] Downloading: Christmas In The Air Isaiah
+[2026-11-01 07:19:02] [116/1499] Downloading: Christmas Instrumental Loveworld Orchestra
+[2026-11-01 07:19:07] [117/1499] Downloading: Christmas Means Christ In Me Jennifer
+[2026-11-01 07:19:07] [120/1499] Downloading: Christmas A Time Of Joy
+[2026-11-01 07:19:12] [122/1499] Downloading: Come Lord Jesus 2
+[2026-11-01 07:19:12] [124/1499] Downloading: Come The Father S Love Awaits
+[2026-11-01 07:19:13] [126/1499] Downloading: Creator Of The Universe 2
+[2026-11-01 07:19:13] [127/1499] Downloading: Creator Of The Universe 3
+[2026-11-01 07:19:13] [128/1499] Downloading: Creator Of The Universe Sylvia
+[2026-11-01 07:19:13] [129/1499] Downloading: Creator Of The Universe Sylvia Loveworld Singers
+[2026-11-01 07:19:13] [132/1499] Downloading: Crowned With Grace Simeon Rich
+[2026-11-01 07:19:13] [133/1499] Downloading: Daddy See What I Can Do
+[2026-11-01 07:19:14] [135/1499] Downloading: Dateless Love Loveworld Singers
+[2026-11-01 07:19:14] [138/1499] Downloading: Dear Lord Jesus Obi Shine
+[2026-11-01 07:19:19] [140/1499] Downloading: Dearest Shepherd 2
+[2026-11-01 07:19:19] [141/1499] Downloading: Dearest Shepherd 3
+[2026-11-01 07:19:19] [142/1499] Downloading: Dearest Shepherd Jeffrey
+[2026-11-01 07:19:19] [145/1499] Downloading: Depth Of Love 2
+[2026-11-01 07:19:20] [148/1499] Downloading: Divine Destiny 2
+[2026-11-01 07:19:20] [151/1499] Downloading: Divine Omnipotence Simeon Rich
+[2026-11-01 07:19:20] [153/1499] Downloading: Divinity 2
+[2026-11-01 07:19:20] [160/1499] Downloading: Eternal Immortal Pst Saki
+[2026-11-01 07:19:25] [162/1499] Downloading: Eternal Immortal God Pastor Saki
+[2026-11-01 07:19:25] [164/1499] Downloading: Eternity Enthroned 2
+[2026-11-01 07:19:26] [166/1499] Downloading: Eternity Is Set In My Heart 2
+[2026-11-01 07:19:26] [169/1499] Downloading: Eternity The Mystery Unveiled 2
+[2026-11-01 07:19:26] [176/1499] Downloading: Everyday 2
+[2026-11-01 07:19:26] [178/1499] Downloading: Everything You Do Is Good 2
+[2026-11-01 07:19:26] [179/1499] Downloading: Everything You Do Is Good 3
+[2026-11-01 07:19:26] [180/1499] Downloading: Everything You Do Is Good Dsa
+[2026-11-01 07:19:27] [181/1499] Downloading: Everything You Do Is Good Sharon Jonathan
+[2026-11-01 07:19:27] [184/1499] Downloading: Extraordinary Strategist 2
+[2026-11-01 07:19:27] [185/1499] Downloading: Extraordinary Strategist Faith
+[2026-11-01 07:19:27] [187/1499] Downloading: Faith Not Reason
+[2026-11-01 07:19:27] [189/1499] Downloading: Faithful And Just 2
+[2026-11-01 07:19:27] [192/1499] Downloading: Father In Me Several Languages
+[2026-11-01 07:19:33] [194/1499] Downloading: Father Of Glory 2
+[2026-11-01 07:19:33] [195/1499] Downloading: Father Of Glory Vashaun Loveworld Singers
+[2026-11-01 07:19:33] [196/1499] Downloading: Father Of Glory Vashuan
+[2026-11-01 07:19:33] [200/1499] Downloading: Father Of Love Vashaun Loveworld Singers
+[2026-11-01 07:19:36] [201/1499] Downloading: Father S Heart Unveiled
+[2026-11-01 07:19:36] [202/1499] Downloading: Father S Love Reaveled
+[2026-11-01 07:19:42] [203/1499] Downloading: Father S Love Son Loveworld Singers
+[2026-11-01 07:19:42] [210/1499] Downloading: For All You Ve Done
+[2026-11-01 07:19:42] [212/1499] Downloading: Hs Oct 2026 D3 For Your Glory
+[2026-11-01 07:19:42] [215/1499] Downloading: Forever Grateful Sylvia
+[2026-11-01 07:19:47] [216/1499] Downloading: Hs Oct 2026 D1 Forever Is Your Throne
+[2026-11-01 07:19:47] [218/1499] Downloading: Forever Lord You Reign 2
+[2026-11-01 07:19:48] [219/1499] Downloading: Forever Lord You Reign Pastor Saki
+[2026-11-01 07:19:48] [221/1499] Downloading: Forever O Lord Chookar
+[2026-11-01 07:19:53] [223/1499] Downloading: Forever Oh Lord 2
+[2026-11-01 07:19:53] [226/1499] Downloading: Forever True Sammy
+[2026-11-01 07:19:58] [227/1499] Downloading: Forever You Re God
+[2026-11-01 07:19:58] [230/1499] Downloading: Freely Chookar
+[2026-11-01 07:20:03] [234/1499] Downloading: From The Ends Of The Earth Treasure
+[2026-11-01 07:20:04] [235/1499] Downloading: Fullness Of God Maya
+[2026-11-01 07:20:09] [240/1499] Downloading: Giver Of Life Loveworld Orchestra
+[2026-11-01 07:20:14] [241/1499] Downloading: Giver Of Life Orchestra
+[2026-11-01 07:20:14] [244/1499] Downloading: Glorious Father Jerry K
+[2026-11-01 07:20:14] [246/1499] Downloading: Glorious God 2
+[2026-11-01 07:20:14] [247/1499] Downloading: Glorious God 3
+[2026-11-01 07:20:14] [248/1499] Downloading: Glorious God Simeon Rich
+[2026-11-01 07:20:15] [249/1499] Downloading: Glorious God Simeon Rich Loveworld Singers
+[2026-11-01 07:20:15] [251/1499] Downloading: Glorious In All Your Ways 2
+[2026-11-01 07:20:15] [253/1499] Downloading: Glorious In All Your Ways Korede
+[2026-11-01 07:20:15] [256/1499] Downloading: Glorious Life Obi Shine Loveworld Singers
+[2026-11-01 07:20:20] [269/1499] Downloading: Glory To The King 2
+[2026-11-01 07:20:20] [270/1499] Downloading: Glory To The King Loveworld Singers Obi Shine
+[2026-11-01 07:20:25] [274/1499] Downloading: God All Powerful
+[2026-11-01 07:20:26] [278/1499] Downloading: God Is Able 2
+[2026-11-01 07:20:26] [282/1499] Downloading: God Of All Ages 2
+[2026-11-01 07:20:26] [283/1499] Downloading: God Of All Ages 3
+[2026-11-01 07:20:26] [284/1499] Downloading: God Of All Ages Oge
+[2026-11-01 07:20:26] [285/1499] Downloading: God Of All Ages Oge Loveworld Singers
+[2026-11-01 07:20:27] [286/1499] Downloading: God Of All Comfort 2
+[2026-11-01 07:20:27] [288/1499] Downloading: God Of All Comfort Vashuan
+[2026-11-01 07:20:27] [290/1499] Downloading: God Of All Grace 2
+[2026-11-01 07:20:27] [292/1499] Downloading: God Of All Grace Maya And Eli J
+[2026-11-01 07:20:32] [298/1499] Downloading: God Of Heaven And Earth 6
+[2026-11-01 07:20:32] [299/1499] Downloading: God Of Heaven And Earth 7
+[2026-11-01 07:20:33] [300/1499] Downloading: God Of Heaven And Earth 8
+[2026-11-01 07:20:33] [301/1499] Downloading: God Of Heaven And Earth 12
+[2026-11-01 07:20:33] [303/1499] Downloading: God Of Heaven And Earth 2
+[2026-11-01 07:20:33] [304/1499] Downloading: God Of Heaven And Earth 3
+[2026-11-01 07:20:33] [305/1499] Downloading: God Of Heaven And Earth 4
+[2026-11-01 07:20:33] [306/1499] Downloading: God Of Heaven And Earth 5
+[2026-11-01 07:20:34] [307/1499] Downloading: God Of Heaven And Earth 9
+[2026-11-01 07:20:34] [308/1499] Downloading: God Of Heaven And Earth 10
+[2026-11-01 07:20:34] [309/1499] Downloading: God Of Heaven And Earth 11
+[2026-11-01 07:20:34] [315/1499] Downloading: God Of Love 2
+[2026-11-01 07:20:34] [322/1499] Downloading: God Of Power And Might 2
+[2026-11-01 07:20:34] [324/1499] Downloading: God Of The Heavenly Pantheon 2
+[2026-11-01 07:20:35] [325/1499] Downloading: God Of The Heavenly Pantheon Vashuan
+[2026-11-01 07:20:35] [328/1499] Downloading: God Yet Man Sylvia Loveworld Singers
+[2026-11-01 07:20:35] [329/1499] Downloading: God Yet Man
+[2026-11-01 07:20:35] [330/1499] Downloading: God S Transcendent Power Is Here
+[2026-11-01 07:20:35] [332/1499] Downloading: Good To Me 2
+[2026-11-01 07:20:36] [336/1499] Downloading: Gracious Is The Lord 2
+[2026-11-01 07:20:36] [349/1499] Downloading: Great King Of All 2
+[2026-11-01 07:20:36] [350/1499] Downloading: Great King Of All Korede
+[2026-11-01 07:20:37] [354/1499] Downloading: Great Great God
+[2026-11-01 07:20:42] [356/1499] Downloading: Hs Oct 2026 D3 Greater Than All
+[2026-11-01 07:20:42] [357/1499] Downloading: Greatest Friend Oge
+[2026-11-01 07:20:43] [366/1499] Downloading: Hallelujah You Reign
+[2026-11-01 07:20:43] [368/1499] Downloading: Halleluyah Classic
+[2026-11-01 07:20:43] [369/1499] Downloading: Halleluyah Chant Orchestra
+[2026-11-01 07:20:48] [370/1499] Downloading: Halleluyah Worship Chant Christmas
+[2026-11-01 07:20:53] [371/1499] Downloading: Halleluyah You Reign
+[2026-11-01 07:20:53] [373/1499] Downloading: Hallowed Be Your Name 2
+[2026-11-01 07:20:54] [380/1499] Downloading: He Is Jesus Pastor Saki And Rita Soul
+[2026-11-01 07:20:54] [382/1499] Downloading: He Knows Your Name 2
+[2026-11-01 07:20:54] [383/1499] Downloading: He Ll Make You Whole
+[2026-11-01 07:20:54] [384/1499] Downloading: He S Here
+[2026-11-01 07:20:54] [385/1499] Downloading: He S Here 2
+[2026-11-01 07:20:54] [386/1499] Downloading: He S The God Of Mercy And Grace
+[2026-11-01 07:20:55] [387/1499] Downloading: He S The Joy You Need
+[2026-11-01 07:21:00] [390/1499] Downloading: Healing In His Name Simeon Rich
+[2026-11-01 07:21:00] [394/1499] Downloading: Hs Oct 2026 D2 Healing To The Nations
+[2026-11-01 07:21:00] [397/1499] Downloading: Heart Of Worship 2
+[2026-11-01 07:21:00] [398/1499] Downloading: Heart Of Worship Lerato Falon Lw Singers Sa
+[2026-11-01 07:21:05] [400/1499] Downloading: Hearts Filled With Joy Faith Ejura
+[2026-11-01 07:21:06] [402/1499] Downloading: Heaven Father Pastor Saki
+[2026-11-01 07:21:11] [404/1499] Downloading: Heavenly Father Vashuan
+[2026-11-01 07:21:11] [405/1499] Downloading: Heavens Declare Maya
+[2026-11-01 07:21:16] [407/1499] Downloading: His Glorious Church Chisom
+[2026-11-01 07:21:17] [409/1499] Downloading: His Glorious Power Vanessa
+[2026-11-01 07:21:17] [412/1499] Downloading: His Name Is Jesus Blessing Daverock Christmas Eve Service
+[2026-11-01 07:21:22] [414/1499] Downloading: His Overwhelming Grace Viwe Nikita
+[2026-11-01 07:21:23] [418/1499] Downloading: Holy Are You Lord 2
+[2026-11-01 07:21:23] [420/1499] Downloading: Holy Are You Lord 3
+[2026-11-01 07:21:23] [421/1499] Downloading: Hs Oct 2026 D1 Holy Are You Lord Hslhs October 2026 Rendition
+[2026-11-01 07:21:23] [422/1499] Downloading: Hs Oct 2026 D3 Holy Are You Lord October 2026 Healing Streams Day 3 Rendition
+[2026-11-01 07:21:23] [424/1499] Downloading: Hs Oct 2026 D1 Holy God Hslhs October 2026 Rendition
+[2026-11-01 07:21:23] [428/1499] Downloading: Holy Is The Lamb 2
+[2026-11-01 07:21:24] [429/1499] Downloading: Holy Is The Lamb Oge
+[2026-11-01 07:21:24] [432/1499] Downloading: Holy Lamb Of God 2
+[2026-11-01 07:21:24] [433/1499] Downloading: Holy Lamb Of God 3
+[2026-11-01 07:21:24] [434/1499] Downloading: Holy Lamb Of God Chisom
+[2026-11-01 07:21:24] [436/1499] Downloading: Holy Most Holy Maya
+[2026-11-01 07:21:25] [438/1499] Downloading: Holy Of Holies 2
+[2026-11-01 07:21:25] [439/1499] Downloading: Holy Of Holies 3
+[2026-11-01 07:21:25] [440/1499] Downloading: Holy Of Holies Oge
+[2026-11-01 07:21:25] [442/1499] Downloading: Holy Spirit Shine Through Me
+[2026-11-01 07:21:25] [443/1499] Downloading: Holy Spirit You Shine Through Me
+[2026-11-01 07:21:25] [444/1499] Downloading: Holy Most Holy 2
+[2026-11-01 07:21:26] [447/1499] Downloading: How Excellent Is Your Name Treasure
+[2026-11-01 07:21:26] [451/1499] Downloading: How Great You Are Sammie
+[2026-11-01 07:21:31] [455/1499] Downloading: I Adore You 2
+[2026-11-01 07:21:31] [457/1499] Downloading: I Am Complete In You 2
+[2026-11-01 07:21:31] [462/1499] Downloading: I Am One With You Vanessa
+[2026-11-01 07:21:31] [464/1499] Downloading: I Am That I Am Jennifer
+[2026-11-01 07:21:37] [465/1499] Downloading: Hs Oct 2026 D3 I Am Who You Say I Am
+[2026-11-01 07:21:37] [467/1499] Downloading: I Bless Your Name 2
+[2026-11-01 07:21:37] [469/1499] Downloading: I Bloom In Your Warm Embrace Rita Soul
+[2026-11-01 07:21:38] [476/1499] Downloading: I Exalt You Mp3
+[2026-11-01 07:21:43] [481/1499] Downloading: I Hear The Sound 2
+[2026-11-01 07:21:43] [485/1499] Downloading: I Live To Honour You 2
+[2026-11-01 07:21:43] [486/1499] Downloading: I Love You Lord 3
+[2026-11-01 07:21:43] [488/1499] Downloading: I Love You Now And Always Blessing
+[2026-11-01 07:21:43] [489/1499] Downloading: I Love You Now And Always Loveworld Singers
+[2026-11-01 07:21:43] [491/1499] Downloading: I Love You Lord 2
+[2026-11-01 07:21:44] [493/1499] Downloading: I Praise Your Name Ruthney Loveworld Singers
+[2026-11-01 07:21:49] [495/1499] Downloading: I See 2
+[2026-11-01 07:21:49] [496/1499] Downloading: I See 3
+[2026-11-01 07:21:49] [497/1499] Downloading: I See You Are Healed
+[2026-11-01 07:21:49] [500/1499] Downloading: I See The Glory 2
+[2026-11-01 07:21:50] [502/1499] Downloading: I See The Glory Pastor Saki
+[2026-11-01 07:21:50] [503/1499] Downloading: I See The Glory Pst Saki
+[2026-11-01 07:21:50] [507/1499] Downloading: I Will Extol 2
+[2026-11-01 07:21:50] [511/1499] Downloading: I Worship You Forevermore Rita Soul
+[2026-11-01 07:21:50] [513/1499] Downloading: I Ll Never Let You Down
+[2026-11-01 07:21:51] [514/1499] Downloading: I Ll Never Stop Praising You
+[2026-11-01 07:21:51] [515/1499] Downloading: I M Alive Because You Live
+[2026-11-01 07:21:51] [516/1499] Downloading: I M Satfisfied In Your Love Pastor Ruthney
+[2026-11-01 07:21:56] [517/1499] Downloading: I M The Light
+[2026-11-01 07:22:01] [518/1499] Downloading: Immortal Invincible God 2
+[2026-11-01 07:22:01] [519/1499] Downloading: Immortal Invincible God Simeon Rich
+[2026-11-01 07:22:01] [520/1499] Downloading: Immortal Invincible God Simeonrich
+[2026-11-01 07:22:02] [523/1499] Downloading: Imperial Majesty 2
+[2026-11-01 07:22:02] [529/1499] Downloading: In His Name 2
+[2026-11-01 07:22:02] [535/1499] Downloading: In You I Live 2
+[2026-11-01 07:22:02] [537/1499] Downloading: In Your Image 2
+[2026-11-01 07:22:02] [542/1499] Downloading: Inexhaustible Source Faith Ajura
+[2026-11-01 07:22:03] [548/1499] Downloading: Instruments Of Praise 2
+[2026-11-01 07:22:03] [552/1499] Downloading: It S A New Day
+[2026-11-01 07:22:03] [553/1499] Downloading: It S A Privilege
+[2026-11-01 07:22:03] [554/1499] Downloading: It S Time To Be Born Again
+[2026-11-01 07:22:03] [555/1499] Downloading: Hs Oct 2026 D1 Your Set Time
+[2026-11-01 07:22:04] [557/1499] Downloading: Hs Oct 2026 D1 Jesus Calms The Storm
+[2026-11-01 07:22:04] [562/1499] Downloading: Jesus Is Here 2
+[2026-11-01 07:22:04] [563/1499] Downloading: Jesus Is Here Maya
+[2026-11-01 07:22:04] [564/1499] Downloading: Jesus Is Here Choral
+[2026-11-01 07:22:04] [566/1499] Downloading: Jesus Is The Answer Peace Money Cannot Buy Alex Vashuan Pastor Ruthney
+[2026-11-01 07:22:05] [569/1499] Downloading: Jesus Makes You Well 2
+[2026-11-01 07:22:05] [572/1499] Downloading: Jesus The Only One That Saves
+[2026-11-01 07:22:05] [573/1499] Downloading: Jesus The Resurrection And The Life
+[2026-11-01 07:22:05] [578/1499] Downloading: Joy To The World The Saviour Is Born
+[2026-11-01 07:22:10] [581/1499] Downloading: Just Believe Receive
+[2026-11-01 07:22:10] [584/1499] Downloading: Hs Oct 2026 D3 King Divine
+[2026-11-01 07:22:11] [588/1499] Downloading: King Of Eternity Pn25
+[2026-11-01 07:22:11] [592/1499] Downloading: King Of Kings 2
+[2026-11-01 07:22:11] [593/1499] Downloading: King Of Kings 3
+[2026-11-01 07:22:11] [594/1499] Downloading: King Of Kings 4
+[2026-11-01 07:22:11] [597/1499] Downloading: King Of Righteousness Kasid
+[2026-11-01 07:22:12] [598/1499] Downloading: King Of The Nations Maya
+[2026-11-01 07:22:12] [602/1499] Downloading: Knowing You 2
+[2026-11-01 07:22:12] [612/1499] Downloading: Living Water Chookar
+[2026-11-01 07:22:12] [616/1499] Downloading: Lord God 2
+[2026-11-01 07:22:12] [618/1499] Downloading: Lord Jesus Obi Shine
+[2026-11-01 07:22:17] [623/1499] Downloading: Lord Jesus Our King 2
+[2026-11-01 07:22:18] [624/1499] Downloading: Lord Jesus You Are Deity
+[2026-11-01 07:22:18] [625/1499] Downloading: Lord Jesus You Re Deity
+[2026-11-01 07:22:18] [630/1499] Downloading: Lord Over All Eli J
+[2026-11-01 07:22:18] [632/1499] Downloading: Lord Saviour Divine 2
+[2026-11-01 07:22:18] [633/1499] Downloading: Lord Saviour Divine 3
+[2026-11-01 07:22:19] [634/1499] Downloading: Lord Saviour Divine Loveworld Singers
+[2026-11-01 07:22:19] [635/1499] Downloading: Lord Saviour Divine Uche
+[2026-11-01 07:22:19] [636/1499] Downloading: Lord The Spirit 2
+[2026-11-01 07:22:19] [641/1499] Downloading: Lord You Are Beautiful 2
+[2026-11-01 07:22:19] [643/1499] Downloading: Lord You Are Beautiful Oge Loveworld Singers
+[2026-11-01 07:22:19] [649/1499] Downloading: Lord You Reign Israel Osho
+[2026-11-01 07:22:25] [650/1499] Downloading: Lord You Reign Simeon Rich
+[2026-11-01 07:22:30] [653/1499] Downloading: Lord You Are Wonderful 2
+[2026-11-01 07:22:31] [658/1499] Downloading: Love Like No Other 2
+[2026-11-01 07:22:31] [660/1499] Downloading: Love So Pure And True Sylvia
+[2026-11-01 07:22:31] [663/1499] Downloading: Love Unforgettable 2
+[2026-11-01 07:22:31] [664/1499] Downloading: Love Unforgettable Faith
+[2026-11-01 07:22:31] [665/1499] Downloading: Love Unforgettable 3
+[2026-11-01 07:22:31] [667/1499] Downloading: Loveworld Anthem
+[2026-11-01 07:22:32] [668/1499] Downloading: Loveworld Anthem We Adore You
+[2026-11-01 07:22:32] [669/1499] Downloading: Loveworld Orchestra 3
+[2026-11-01 07:22:37] [670/1499] Downloading: Loveworld Orchestra Instrumental Play
+[2026-11-01 07:22:42] [671/1499] Downloading: October 2026 Communion Service Renditions Compilation
+[2026-11-01 07:22:48] [673/1499] Downloading: Loving God I Give You Thanks 2
+[2026-11-01 07:22:48] [675/1499] Downloading: Luminous Ecclesia 2
+[2026-11-01 07:22:48] [678/1499] Downloading: Magnificent You Are Faith Ejura
+[2026-11-01 07:22:48] [680/1499] Downloading: Manifestly Declared Israel
+[2026-11-01 07:22:48] [687/1499] Downloading: Matchless Name 2
+[2026-11-01 07:22:48] [689/1499] Downloading: Medley Thank You Lord Loveworld Lyrics
+[2026-11-01 07:22:54] [690/1499] Downloading: Medley Resounding Praise And Saviour Divine
+[2026-11-01 07:22:54] [693/1499] Downloading: Medley 10 Loveworld Singers
+[2026-11-01 07:22:59] [705/1499] Downloading: Medley 20 2
+[2026-11-01 07:22:59] [710/1499] Downloading: Hs Oct 2026 D2 Medley 24
+[2026-11-01 07:23:04] [711/1499] Downloading: Hs Oct 2026 D1 Medley 25
+[2026-11-01 07:23:05] [712/1499] Downloading: Hs Oct 2026 D3 Medley 26
+[2026-11-01 07:23:05] [714/1499] Downloading: Medley 3 February Praise Service
+[2026-11-01 07:23:05] [715/1499] Downloading: Medley 3 Loveworld Singers
+[2026-11-01 07:23:10] [717/1499] Downloading: Medley 4 2
+[2026-11-01 07:23:10] [718/1499] Downloading: Medley 4 Hslhs 8
+[2026-11-01 07:23:10] [720/1499] Downloading: Medley 5 2
+[2026-11-01 07:23:11] [722/1499] Downloading: Medley 6 Hslhs 8
+[2026-11-01 07:23:11] [724/1499] Downloading: Medley 7 2
+[2026-11-01 07:23:11] [725/1499] Downloading: Medley 7 3
+[2026-11-01 07:23:11] [726/1499] Downloading: Medley 7 Loveworld Singers
+[2026-11-01 07:23:16] [727/1499] Downloading: Medley 7 Praise Night 18
+[2026-11-01 07:23:17] [737/1499] Downloading: Mighty Is Our King 2
+[2026-11-01 07:23:17] [738/1499] Downloading: Mighty Is Our King Alex
+[2026-11-01 07:23:22] [742/1499] Downloading: Miracles Are Real 2
+[2026-11-01 07:23:22] [745/1499] Downloading: More Than A Wonder To Me Jennifer And Obi Shine
+[2026-11-01 07:23:27] [750/1499] Downloading: More Than Life To Me 2
+[2026-11-01 07:23:27] [751/1499] Downloading: More Than Life To Me Pastor Saki Loveworld Singers
+[2026-11-01 07:23:28] [753/1499] Downloading: Morning Dew 2
+[2026-11-01 07:23:28] [754/1499] Downloading: Morning Dew 3
+[2026-11-01 07:23:28] [755/1499] Downloading: Morning Dew Pastor Saki Loveworld Singers
+[2026-11-01 07:23:28] [757/1499] Downloading: Most High 2
+[2026-11-01 07:23:28] [759/1499] Downloading: Most High God 2
+[2026-11-01 07:23:28] [760/1499] Downloading: Most High God 3
+[2026-11-01 07:23:29] [761/1499] Downloading: Most High God 4
+[2026-11-01 07:23:31] [762/1499] Downloading: Most High God 5
+[2026-11-01 07:23:32] [763/1499] Downloading: Most High God Sylvia
+[2026-11-01 07:23:32] [764/1499] Downloading: Most Holy Is Your Name 4
+[2026-11-01 07:23:32] [766/1499] Downloading: Most Holy Is Your Name 2
+[2026-11-01 07:23:32] [767/1499] Downloading: Most Holy Is Your Name 3
+[2026-11-01 07:23:32] [768/1499] Downloading: Most Holy Is Your Name Maya
+[2026-11-01 07:23:32] [769/1499] Downloading: Most Holy Is Your Name Maya Loveworld Singers
+[2026-11-01 07:23:33] [771/1499] Downloading: Most Worthy King Of Kings 2
+[2026-11-01 07:23:33] [772/1499] Downloading: Mountain Of The Lord S House
+[2026-11-01 07:23:33] [774/1499] Downloading: My Alabaster Box Maya
+[2026-11-01 07:23:38] [783/1499] Downloading: My Life Honours You Oge
+[2026-11-01 07:23:43] [784/1499] Downloading: Life And Immortality Unveiled
+[2026-11-01 07:23:44] [787/1499] Downloading: My Saviour And Lord 2
+[2026-11-01 07:23:44] [794/1499] Downloading: No God Greater Than You Mikayla
+[2026-11-01 07:23:49] [796/1499] Downloading: No God Like You 2
+[2026-11-01 07:23:49] [797/1499] Downloading: No Name Healing Streams
+[2026-11-01 07:23:54] [799/1499] Downloading: Hs Oct 2026 D1 No Price To Pay
+[2026-11-01 07:23:55] [800/1499] Downloading: No Way You Re Leaving Here The Same
+[2026-11-01 07:23:55] [804/1499] Downloading: Not Ashamed Of Your Gospel 2
+[2026-11-01 07:23:55] [805/1499] Downloading: Nothing Is Beyond You 2
+[2026-11-01 07:23:55] [807/1499] Downloading: Nothing Is Beyond You 3
+[2026-11-01 07:23:55] [808/1499] Downloading: Nothing Is Beyond You Dsa
+[2026-11-01 07:23:56] [812/1499] Downloading: Oblations Of Praise 2
+[2026-11-01 07:23:56] [814/1499] Downloading: Oblations Of Praise Israel Osho Lw Singers
+[2026-11-01 07:24:01] [815/1499] Downloading: October Praise Service Medley Loveworld Orchestra
+[2026-11-01 07:24:06] [816/1499] Downloading: October Praise Service Medley Loveworld Singers
+[2026-11-01 07:24:11] [818/1499] Downloading: Offering Instrumental June 2026 Global Communion Service
+[2026-11-01 07:24:16] [830/1499] Downloading: Oh Gracious God
+[2026-11-01 07:24:16] [831/1499] Downloading: Oh What A Joy 2
+[2026-11-01 07:24:16] [832/1499] Downloading: Oh What A Joy
+[2026-11-01 07:24:17] [833/1499] Downloading: Oh Gracious God 2
+[2026-11-01 07:24:17] [843/1499] Downloading: Only You Are God Forever 2
+[2026-11-01 07:24:17] [844/1499] Downloading: Orchestra Praise Night 29
+[2026-11-01 07:24:22] [850/1499] Downloading: Our Goodly Heritage 2
+[2026-11-01 07:24:22] [853/1499] Downloading: Our Triumphant King Simeon Rich
+[2026-11-01 07:24:23] [854/1499] Downloading: Overwhelmed Live Performance
+[2026-11-01 07:24:28] [858/1499] Downloading: Perfect And Complete 2
+[2026-11-01 07:24:28] [863/1499] Downloading: Power Belongs To You Dsa Loveworld Singers
+[2026-11-01 07:24:28] [865/1499] Downloading: Praise Night 14 Orchestra
+[2026-11-01 07:24:33] [875/1499] Downloading: Precious Lord Jesus 2
+[2026-11-01 07:24:33] [876/1499] Downloading: Precious Lord Jesus 3
+[2026-11-01 07:24:33] [879/1499] Downloading: Precious Word Of Truth 2
+[2026-11-01 07:24:34] [880/1499] Downloading: Precious Word Of Truth Sylvia Loveworld Singers
+[2026-11-01 07:24:36] [882/1499] Downloading: Reachout World Theme Song Loveworld Singers
+[2026-11-01 07:24:42] [885/1499] Downloading: Receive Your Miracle 2
+[2026-11-01 07:24:42] [890/1499] Downloading: Hs Oct 2026 D3 Replete With Your Love
+[2026-11-01 07:24:42] [893/1499] Downloading: Resounding Praise 2
+[2026-11-01 07:24:42] [894/1499] Downloading: Hs Oct 2026 D2 Resounding Praise
+[2026-11-01 07:24:43] [895/1499] Downloading: Resounding Praise Orchestra
+[2026-11-01 07:24:43] [906/1499] Downloading: Run Run Jennifer
+[2026-11-01 07:24:48] [917/1499] Downloading: So I Praise You Lord You Reign
+[2026-11-01 07:24:48] [918/1499] Downloading: So It Is Written 2
+[2026-11-01 07:24:48] [919/1499] Downloading: So It Is Written Sylvia
+[2026-11-01 07:24:49] [920/1499] Downloading: So It Is Written Sylvia Loveworld Singers
+[2026-11-01 07:24:49] [923/1499] Downloading: Somebody Knows Eli J
+[2026-11-01 07:24:54] [925/1499] Downloading: Son Of God Simeon Rich
+[2026-11-01 07:24:54] [927/1499] Downloading: Son Of Man 2
+[2026-11-01 07:24:54] [929/1499] Downloading: Song Of Heaven Uche
+[2026-11-01 07:24:59] [936/1499] Downloading: Sovereign Lord You Are 2
+[2026-11-01 07:24:59] [939/1499] Downloading: Spirit Of Truth Rozey
+[2026-11-01 07:25:00] [942/1499] Downloading: Splendour 2
+[2026-11-01 07:25:00] [946/1499] Downloading: Started With You Eli J
+[2026-11-01 07:25:05] [947/1499] Downloading: Started With You Loveworld Singers
+[2026-11-01 07:25:10] [950/1499] Downloading: Strong And Mighty Faith Loveworld Singers
+[2026-11-01 07:25:15] [952/1499] Downloading: Strong And Mighty God 2
+[2026-11-01 07:25:15] [953/1499] Downloading: Strong And Mighty God 3
+[2026-11-01 07:25:16] [954/1499] Downloading: Strong And Mighty God Faith Ejura
+[2026-11-01 07:25:16] [956/1499] Downloading: Strong And Powerful Noble
+[2026-11-01 07:25:21] [962/1499] Downloading: Sweet Spirit Krisshill
+[2026-11-01 07:25:21] [964/1499] Downloading: Thank You 2
+[2026-11-01 07:25:21] [965/1499] Downloading: Thank You 3
+[2026-11-01 07:25:21] [966/1499] Downloading: Thank You 4
+[2026-11-01 07:25:22] [967/1499] Downloading: Thank You For All You Ve Done For Me
+[2026-11-01 07:25:27] [972/1499] Downloading: Hs Oct 2026 D2 Thank You Holy Spirit
+[2026-11-01 07:25:27] [974/1499] Downloading: Thank You Jesus 2
+[2026-11-01 07:25:27] [978/1499] Downloading: That Same God 2
+[2026-11-01 07:25:27] [981/1499] Downloading: The Air Of Your Presence Faith Ajura
+[2026-11-01 07:25:27] [982/1499] Downloading: Hs Oct 2026 D3 The All Powerful Name
+[2026-11-01 07:25:28] [983/1499] Downloading: The All Time Wonder
+[2026-11-01 07:25:28] [985/1499] Downloading: Hs Oct 2026 D2 The Answer To Every Question
+[2026-11-01 07:25:28] [987/1499] Downloading: The Appeasement For Sin Vanessa Loveworld Singers
+[2026-11-01 07:25:28] [991/1499] Downloading: The Beauty And Joy Of My Life 2
+[2026-11-01 07:25:28] [997/1499] Downloading: The Blessed Of The Lord 2
+[2026-11-01 07:25:28] [999/1499] Downloading: The Christ D N A
+[2026-11-01 07:25:29] [1000/1499] Downloading: The Christ D N A 2
+[2026-11-01 07:25:29] [1002/1499] Downloading: The Christ Dna Faith Ejura
+[2026-11-01 07:25:29] [1003/1499] Downloading: The Citadel Of Safety 2
+[2026-11-01 07:25:29] [1007/1499] Downloading: The Creator That Was Never Created 3
+[2026-11-01 07:25:29] [1008/1499] Downloading: The Creator That Was Never Created 2
+[2026-11-01 07:25:30] [1009/1499] Downloading: Hs Oct 2026 D3 The Darkness Is Over
+[2026-11-01 07:25:30] [1018/1499] Downloading: The Eternal Elixir 2
+[2026-11-01 07:25:30] [1022/1499] Downloading: The Exactness Of The Invisible God Sylvia
+[2026-11-01 07:25:30] [1027/1499] Downloading: The Father In Me Maya Simeon Rich
+[2026-11-01 07:25:30] [1028/1499] Downloading: Hs Oct 2026 D2 The Father In Me
+[2026-11-01 07:25:31] [1029/1499] Downloading: The Father S Heart Unveiled
+[2026-11-01 07:25:31] [1030/1499] Downloading: The Father S Heart Unveiled 2
+[2026-11-01 07:25:31] [1031/1499] Downloading: The Father S Love Son
+[2026-11-01 07:25:31] [1032/1499] Downloading: The Father S Love Son 2
+[2026-11-01 07:25:31] [1033/1499] Downloading: The Father S Love Son Maya And Eli J
+[2026-11-01 07:25:32] [1046/1499] Downloading: The Glory Of The Unseen God 2
+[2026-11-01 07:25:32] [1047/1499] Downloading: Hs Oct 2026 D3 The God Of All Grace October 2026 Healing Streams
+[2026-11-01 07:25:32] [1048/1499] Downloading: Hs Oct 2026 D3 The God Who Hears
+[2026-11-01 07:25:32] [1049/1499] Downloading: The God Man
+[2026-11-01 07:25:32] [1053/1499] Downloading: The Great High Priest Simeon Rich
+[2026-11-01 07:25:32] [1056/1499] Downloading: The Great Physician Is Here Sylvia
+[2026-11-01 07:25:33] [1057/1499] Downloading: The Greatest Friend Ever Korede Maya Faith
+[2026-11-01 07:25:33] [1061/1499] Downloading: The Greatest Lord 2
+[2026-11-01 07:25:33] [1064/1499] Downloading: The Healer Is Here Maya
+[2026-11-01 07:25:33] [1065/1499] Downloading: Hs Oct 2026 D1 The Healing Christ Is Here
+[2026-11-01 07:25:34] [1066/1499] Downloading: Hs Oct 2026 D2 The Healing Christ Is Here
+[2026-11-01 07:25:34] [1068/1499] Downloading: The Heavens Are Filled 2
+[2026-11-01 07:25:34] [1070/1499] Downloading: The Heavens Declare 2
+[2026-11-01 07:25:34] [1074/1499] Downloading: The I Am 2
+[2026-11-01 07:25:34] [1075/1499] Downloading: The I Am Rozey Loveworld Singers
+[2026-11-01 07:25:35] [1087/1499] Downloading: The Light Of Life Is Born Kome And Mary
+[2026-11-01 07:25:35] [1089/1499] Downloading: Hs Oct 2026 D2 The Lion And The Lamb
+[2026-11-01 07:25:35] [1092/1499] Downloading: The Living Word 2
+[2026-11-01 07:25:35] [1093/1499] Downloading: Hs Oct 2026 D3 The Living Word October 2026 Healing Streams
+[2026-11-01 07:25:35] [1095/1499] Downloading: Hs Oct 2026 D3 The Lord From Above
+[2026-11-01 07:25:36] [1108/1499] Downloading: The Mountain Of The Lord S House
+[2026-11-01 07:25:36] [1117/1499] Downloading: The Only God 2
+[2026-11-01 07:25:36] [1120/1499] Downloading: The Only Mediator 2
+[2026-11-01 07:25:36] [1121/1499] Downloading: The Only Mediator 3
+[2026-11-01 07:25:36] [1123/1499] Downloading: The Only Sovereign God 2
+[2026-11-01 07:25:36] [1130/1499] Downloading: The Perfect Sacrifice Simeon And Jebbaj
+[2026-11-01 07:25:37] [1133/1499] Downloading: The Presence Of The Lord Is Here Rejoice
+[2026-11-01 07:25:42] [1138/1499] Downloading: The Reason Simeon Loveworld Singers
+[2026-11-01 07:25:42] [1148/1499] Downloading: The Sinless Christ 2
+[2026-11-01 07:25:42] [1149/1499] Downloading: The Sinless Christ Oge Loveworld Singers
+[2026-11-01 07:25:43] [1151/1499] Downloading: Hs Oct 2026 D3 The Spirit Of Life
+[2026-11-01 07:25:43] [1162/1499] Downloading: The Time Is Now 2
+[2026-11-01 07:25:43] [1163/1499] Downloading: The Time Is Now Tsharp
+[2026-11-01 07:25:43] [1164/1499] Downloading: The Time Is Now Choral
+[2026-11-01 07:25:43] [1171/1499] Downloading: There Is A Miracle For You Maya
+[2026-11-01 07:25:44] [1174/1499] Downloading: There Is Nothing Impossible Viwe Nikita
+[2026-11-01 07:25:44] [1175/1499] Downloading: There S A Miracle For You
+[2026-11-01 07:25:44] [1176/1499] Downloading: There S A Miracle For You Today
+[2026-11-01 07:25:44] [1177/1499] Downloading: There S A Miracle For You Today 2
+[2026-11-01 07:25:44] [1178/1499] Downloading: There S A Miracle In This Place
+[2026-11-01 07:25:44] [1179/1499] Downloading: There S A Miracle In This Place 2
+[2026-11-01 07:25:45] [1180/1499] Downloading: There S An Avalanche Of Miracles
+[2026-11-01 07:25:45] [1181/1499] Downloading: There S No Other Name
+[2026-11-01 07:25:50] [1182/1499] Downloading: There S No Way You Re Leaving Here The Same
+[2026-11-01 07:25:50] [1183/1499] Downloading: There S Nothing Impossible
+[2026-11-01 07:25:50] [1184/1499] Downloading: There S One Who Loves You
+[2026-11-01 07:25:51] [1185/1499] Downloading: There S Power In This Place
+[2026-11-01 07:25:51] [1186/1499] Downloading: There S Power In This Place 2
+[2026-11-01 07:25:51] [1187/1499] Downloading: There S Power In This Place 3
+[2026-11-01 07:25:51] [1191/1499] Downloading: They That Wait On You Loveworld Ochestra
+[2026-11-01 07:25:51] [1194/1499] Downloading: This Glorious Life 2
+[2026-11-01 07:25:52] [1195/1499] Downloading: This Glorious Life 3
+[2026-11-01 07:25:52] [1201/1499] Downloading: Timeless Sylvia
+[2026-11-01 07:25:52] [1205/1499] Downloading: To The Ends Of The Earth 2
+[2026-11-01 07:25:52] [1206/1499] Downloading: To The Ends Of The Earth 3
+[2026-11-01 07:25:52] [1207/1499] Downloading: To The Ends Of The Earth Korede Loveworld Singers
+[2026-11-01 07:25:52] [1211/1499] Downloading: Totality Of Deity Vashuan
+[2026-11-01 07:25:53] [1214/1499] Downloading: Truth And Grace 2
+[2026-11-01 07:25:53] [1215/1499] Downloading: Truth And Grace Vashuan
+[2026-11-01 07:25:58] [1217/1499] Downloading: Truth On The Pages Of Eternity Sylvia
+[2026-11-01 07:25:58] [1222/1499] Downloading: Unchanging God Uche
+[2026-11-01 07:25:58] [1225/1499] Downloading: Unending Praise 2
+[2026-11-01 07:25:58] [1226/1499] Downloading: Unending Praise 3
+[2026-11-01 07:25:59] [1227/1499] Downloading: Unending Praise Loveworld Singers
+[2026-11-01 07:25:59] [1229/1499] Downloading: Unending Reign 2
+[2026-11-01 07:25:59] [1230/1499] Downloading: Unrivaled Authority Chookar
+[2026-11-01 07:26:04] [1234/1499] Downloading: Unto You Deacon Conrade
+[2026-11-01 07:26:04] [1236/1499] Downloading: Unto You We Lift Our Voice Pastor Saki
+[2026-11-01 07:26:04] [1237/1499] Downloading: Hs Oct 2026 D3 Unto You We Lift Our Voice October 2026 Healing Streams Day 3 Rendition
+[2026-11-01 07:26:05] [1238/1499] Downloading: Unto You We Lift Our Voice 2
+[2026-11-01 07:26:05] [1240/1499] Downloading: Victorious God Treasure
+[2026-11-01 07:26:10] [1243/1499] Downloading: Voice Of Life Choral
+[2026-11-01 07:26:10] [1247/1499] Downloading: We Are A Blessed People 2
+[2026-11-01 07:26:10] [1249/1499] Downloading: We Are Blessed People Eniola March Com
+[2026-11-01 07:26:10] [1254/1499] Downloading: We Ascribe All Greatness 2
+[2026-11-01 07:26:11] [1256/1499] Downloading: We Bring You Healing Eniola
+[2026-11-01 07:26:11] [1261/1499] Downloading: We Give Thanks 2
+[2026-11-01 07:26:11] [1262/1499] Downloading: We Give Thanks Loveworld Ochestra
+[2026-11-01 07:26:11] [1264/1499] Downloading: We Give You Thanks 2
+[2026-11-01 07:26:11] [1265/1499] Downloading: Hs Oct 2026 D2 We Give You Thanks
+[2026-11-01 07:26:12] [1270/1499] Downloading: We Hail From Deity 2
+[2026-11-01 07:26:12] [1271/1499] Downloading: We Hail From Diety Oge Loveworld Singers
+[2026-11-01 07:26:17] [1274/1499] Downloading: We Lift Our Voice In Triumphant Songs 2
+[2026-11-01 07:26:17] [1277/1499] Downloading: We Praise 2
+[2026-11-01 07:26:17] [1279/1499] Downloading: We Proclaim Your Matchless Name 2
+[2026-11-01 07:26:17] [1284/1499] Downloading: We Sing Praise Sammy Mcauley Loveworld Singers
+[2026-11-01 07:26:23] [1286/1499] Downloading: We Thank You 2
+[2026-11-01 07:26:23] [1289/1499] Downloading: We Triumph Pu Sophiya
+[2026-11-01 07:26:23] [1296/1499] Downloading: What A Life 2
+[2026-11-01 07:26:23] [1300/1499] Downloading: What A Privilege Choral
+[2026-11-01 07:26:23] [1301/1499] Downloading: What A Privilege Rita Soul
+[2026-11-01 07:26:23] [1308/1499] Downloading: Who But God Choral
+[2026-11-01 07:26:24] [1312/1499] Downloading: With Every Breath 2
+[2026-11-01 07:26:24] [1313/1499] Downloading: With Every Breath 3
+[2026-11-01 07:26:24] [1314/1499] Downloading: With Every Breath Uche
+[2026-11-01 07:26:24] [1317/1499] Downloading: With Lifted Hands Oh Righteous God
+[2026-11-01 07:26:29] [1320/1499] Downloading: With My Voice Lifted Up 2
+[2026-11-01 07:26:30] [1321/1499] Downloading: Woman Healed From Infirmities Rita Soul Chisom
+[2026-11-01 07:26:30] [1327/1499] Downloading: Worthy Are You Lord Simeon Rich
+[2026-11-01 07:26:30] [1328/1499] Downloading: Worthy Are You Lord
+[2026-11-01 07:26:30] [1329/1499] Downloading: Worthy Is The Lamb 3
+[2026-11-01 07:26:30] [1331/1499] Downloading: Worthy Is The Lamb 2
+[2026-11-01 07:26:31] [1340/1499] Downloading: You Are Beautiful 2
+[2026-11-01 07:26:31] [1344/1499] Downloading: You Are Eternity 2
+[2026-11-01 07:26:31] [1345/1499] Downloading: You Are Eternity Vanessa
+[2026-11-01 07:26:31] [1347/1499] Downloading: You Are Exalted 2
+[2026-11-01 07:26:31] [1348/1499] Downloading: You Are Exalted Maya Loveworld Singers
+[2026-11-01 07:26:31] [1350/1499] Downloading: You Are God Rita Soul And Vashuan Choral
+[2026-11-01 07:26:32] [1352/1499] Downloading: You Are Great 2
+[2026-11-01 07:26:32] [1355/1499] Downloading: You Are Healed In Jesus Name
+[2026-11-01 07:26:32] [1357/1499] Downloading: You Are Holy 2
+[2026-11-01 07:26:32] [1358/1499] Downloading: You Are Holy 3
+[2026-11-01 07:26:32] [1359/1499] Downloading: You Are Holy 4
+[2026-11-01 07:26:33] [1360/1499] Downloading: You Are Holy Rita Soul
+[2026-11-01 07:26:33] [1361/1499] Downloading: Hs Oct 2026 D2 You Are Holy
+[2026-11-01 07:26:33] [1366/1499] Downloading: You Are My Shelter 2
+[2026-11-01 07:26:33] [1370/1499] Downloading: You Are The Beauty Of The Ages Vanessa
+[2026-11-01 07:26:33] [1371/1499] Downloading: You Are The Beauty Of The Ages Vanessa Loveworld Singers
+[2026-11-01 07:26:34] [1373/1499] Downloading: You Are The Christ Maya
+[2026-11-01 07:26:34] [1376/1499] Downloading: You Are The King Of Glory Mikayla
+[2026-11-01 07:26:34] [1380/1499] Downloading: You Are The Lord 2
+[2026-11-01 07:26:34] [1382/1499] Downloading: You Are The One Eli J Jennifer Jude
+[2026-11-01 07:26:39] [1385/1499] Downloading: You Are The Only One Like You Orchestra
+[2026-11-01 07:26:44] [1388/1499] Downloading: Hs Oct 2026 D2 You Came From Eternity
+[2026-11-01 07:26:45] [1390/1499] Downloading: You Commanded Praise 2
+[2026-11-01 07:26:45] [1391/1499] Downloading: You Commanded Praise 3
+[2026-11-01 07:26:45] [1396/1499] Downloading: You Have Triumphed Gloriously Loveworld Singers
+[2026-11-01 07:26:46] [1397/1499] Downloading: You Keep My Heart In Perfect Peace Chookar
+[2026-11-01 07:26:46] [1404/1499] Downloading: You Rule 2
+[2026-11-01 07:26:51] [1406/1499] Downloading: You Said Let There
+[2026-11-01 07:26:51] [1407/1499] Downloading: You Said Let There Be 2
+[2026-11-01 07:26:51] [1409/1499] Downloading: You Sit Above The Cherubim Loveworld Singers
+[2026-11-01 07:26:52] [1410/1499] Downloading: You Sit Above The Cherubim Maya
+[2026-11-01 07:26:52] [1412/1499] Downloading: You Will Be Healed Sylvia
+[2026-11-01 07:26:52] [1414/1499] Downloading: You Will Smile Today Obi Shine
+[2026-11-01 07:26:52] [1415/1499] Downloading: You Ll Be Healed
+[2026-11-01 07:26:52] [1416/1499] Downloading: You Ll Have A Miracle
+[2026-11-01 07:26:52] [1417/1499] Downloading: You Ll Have A Testimony
+[2026-11-01 07:26:53] [1418/1499] Downloading: Hs Oct 2026 D3 You Ll Live Again
+[2026-11-01 07:26:53] [1419/1499] Downloading: You Re All I See
+[2026-11-01 07:26:53] [1420/1499] Downloading: You Re In The Right Place Of His Power
+[2026-11-01 07:26:58] [1421/1499] Downloading: You Re More Than Enough For Me
+[2026-11-01 07:27:03] [1422/1499] Downloading: You Re The Beauty Of The Ages
+[2026-11-01 07:27:03] [1423/1499] Downloading: You Re The Beauty Of The Ages 2
+[2026-11-01 07:27:04] [1424/1499] Downloading: You Re The Father Of Light
+[2026-11-01 07:27:04] [1425/1499] Downloading: Hs Oct 2026 D2 You Re The Father Of Light
+[2026-11-01 07:27:04] [1426/1499] Downloading: You Re The King Of Glory
+[2026-11-01 07:27:04] [1427/1499] Downloading: You Re The Only One Like You
+[2026-11-01 07:27:04] [1428/1499] Downloading: You Ve Established Our Lives
+[2026-11-01 07:27:05] [1431/1499] Downloading: Your Boundless Love Oge
+[2026-11-01 07:27:05] [1433/1499] Downloading: Your Dominion Is For Eternity 2
+[2026-11-01 07:27:05] [1438/1499] Downloading: Your Imperial Majesty Simeon Rich
+[2026-11-01 07:27:05] [1441/1499] Downloading: Hs Oct 2026 D2 Your Love Has No Measure
+[2026-11-01 07:27:05] [1443/1499] Downloading: Your Love Is Great Sammie Loveworld Singers
+[2026-11-01 07:27:06] [1450/1499] Downloading: Your Name Is Higher Treasure
+[2026-11-01 07:27:06] [1453/1499] Downloading: Your Name Is The Biggest Faith Ejura
+[2026-11-01 07:27:06] [1456/1499] Downloading: Your Name Lord 2
+[2026-11-01 07:27:06] [1457/1499] Downloading: Your Name Lord Alex
+[2026-11-01 07:27:06] [1458/1499] Downloading: Your Name Lord Alex Loveworld Singers
+[2026-11-01 07:27:07] [1461/1499] Downloading: Hs Oct 2026 D1 Your Reign Is Forever
+[2026-11-01 07:27:07] [1463/1499] Downloading: Your Sovereignty Is Forever Vashuan
+[2026-11-01 07:27:07] [1469/1499] Downloading: Your Word Is Eternal Blessing
+[2026-11-01 07:27:07] [1471/1499] Downloading: Your Word Is Our Wisdom 2
+[2026-11-01 07:27:07] [1472/1499] Downloading: Your Word Is Our Wisdom Vanessa
+[2026-11-01 07:27:08] [1476/1499] Downloading: Your Word My Assurance Daverock
+[2026-11-01 07:27:08] [1478/1499] Downloading: Hs Oct 2026 D1 Your Word Will Never Fail
+[2026-11-01 07:27:08] [1479/1499] Downloading: Your Word My Assurance
+[2026-11-01 07:27:08] [1480/1499] Downloading: Your Word S Eternal
+[2026-11-01 07:27:08] [1481/1499] Downloading: Hs Oct 2026 D1 Yours Alone Is The Greatness
+[2026-11-01 07:27:09] [1493/1499] Downloading: Loveworld Singers Renditions — 6-Song Compilation
+[2026-11-01 07:27:12] [1499/1499] Downloading: You're The King Who Reigns Forever
+[2026-11-01 07:27:14] === Execution Complete ===
+[2026-11-01 07:27:14] Summary -> Downloaded: 580 | Skipped (Already Exist): 919 | Errors: 0
+[2026-11-01 08:20:31] === Robust Script Execution Started ===
+[2026-11-01 08:20:31] Loaded 1481 songs from catalogue.csv and 18 songs from loveworldmusic-only.csv.
+[2026-11-01 08:20:31] Scanning online catalog for new songs (dynamic pagination)...
+[2026-11-01 08:20:37] No new songs found in online scan.
+[2026-11-01 08:20:37] [3/1499] Downloading/Repairing: A New Beginning Loveworld Kiddies
+[2026-11-01 08:20:38] [5/1499] Downloading/Repairing: A New Race 2
+[2026-11-01 08:20:38] [11/1499] Downloading/Repairing: Absolutely Powerful Vashuan
+[2026-11-01 08:20:38] [15/1499] Downloading/Repairing: All Conquering King 2
+[2026-11-01 08:20:39] [18/1499] Downloading/Repairing: Hs Oct 2026 D1 All Glorious Is Your Majesty
+[2026-11-01 08:20:39] [21/1499] Downloading/Repairing: All Powerful Sophiya
+[2026-11-01 08:20:44] [23/1499] Downloading/Repairing: All Powerful God 2
+[2026-11-01 08:20:44] [27/1499] Downloading/Repairing: All The Trees 2
+[2026-11-01 08:20:44] [29/1499] Downloading/Repairing: All Things Are Possible 2
+[2026-11-01 08:20:44] [30/1499] Downloading/Repairing: Hs Oct 2026 D3 All Things Are Possible October 2026 Healing Streams
+[2026-11-01 08:20:45] [31/1499] Downloading/Repairing: All Time Wonder 3
+[2026-11-01 08:20:45] [32/1499] Downloading/Repairing: All Time Wonder Obi Shine Loveworld Singers
+[2026-11-01 08:20:45] [35/1499] Downloading/Repairing: All Conquering Master And Saviour
+[2026-11-01 08:20:45] [37/1499] Downloading/Repairing: All Time Wonder 2
+[2026-11-01 08:20:45] [39/1499] Downloading/Repairing: Almighty God 2
+[2026-11-01 08:20:45] [43/1499] Downloading/Repairing: Amazing God 2
+[2026-11-01 08:20:45] [44/1499] Downloading/Repairing: Amazing God 3
+[2026-11-01 08:20:46] [45/1499] Downloading/Repairing: Amazing God 4
+[2026-11-01 08:20:46] [46/1499] Downloading/Repairing: Amazing God Angibaj
+[2026-11-01 08:20:46] [48/1499] Downloading/Repairing: Amazing Things Dcn Conrad
+[2026-11-01 08:20:51] [52/1499] Downloading/Repairing: Answered Prayers 2
+[2026-11-01 08:20:51] [54/1499] Downloading/Repairing: Anything Is Possible Faith Ejura
+[2026-11-01 08:20:51] [60/1499] Downloading/Repairing: Associates Of The Heavenly Pantheon Vashuan
+[2026-11-01 08:20:57] [65/1499] Downloading/Repairing: Awesome Majesty 2
+[2026-11-01 08:20:57] [66/1499] Downloading/Repairing: Awesome Majesty 3
+[2026-11-01 08:20:57] [67/1499] Downloading/Repairing: Awesome Majesty Korede
+[2026-11-01 08:20:57] [70/1499] Downloading/Repairing: Be Healed In Jesus Name Faith
+[2026-11-01 08:20:57] [72/1499] Downloading/Repairing: Beautiful Faith
+[2026-11-01 08:20:57] [73/1499] Downloading/Repairing: Beautiful Loveworld Singers
+[2026-11-01 08:20:58] [76/1499] Downloading/Repairing: Beautiful Lord Of Holiness 2
+[2026-11-01 08:20:58] [78/1499] Downloading/Repairing: Beautiful Mp3
+[2026-11-01 08:20:58] [83/1499] Downloading/Repairing: Blessed Be Your Holy Name 2
+[2026-11-01 08:20:58] [87/1499] Downloading/Repairing: Blessed Creator Maya
+[2026-11-01 08:20:58] [89/1499] Downloading/Repairing: Blessed Of The Lord Rita Soul
+[2026-11-01 08:20:58] [93/1499] Downloading/Repairing: Born To Give Life Sammie And Faith Ejura
+[2026-11-01 08:20:59] [95/1499] Downloading/Repairing: Boundless Love Loveworld Singers
+[2026-11-01 08:20:59] [97/1499] Downloading/Repairing: Boundless Ocean Of Grace Korede
+[2026-11-01 08:20:59] [102/1499] Downloading/Repairing: By Your Word 2
+[2026-11-01 08:20:59] [104/1499] Downloading/Repairing: Hs Oct 2026 D1 Centre Of Your Love Hslhs October 2026 Rendition
+[2026-11-01 08:20:59] [106/1499] Downloading/Repairing: Christ Is On The Way Tru South Christian K
+[2026-11-01 08:21:04] [107/1499] Downloading/Repairing: Christ Our Divine Immunity 2
+[2026-11-01 08:21:05] [108/1499] Downloading/Repairing: Christ Our Divine Immunity 3
+[2026-11-01 08:21:05] [115/1499] Downloading/Repairing: Christmas In The Air Isaiah
+[2026-11-01 08:21:05] [116/1499] Downloading/Repairing: Christmas Instrumental Loveworld Orchestra
+[2026-11-01 08:21:10] [117/1499] Downloading/Repairing: Christmas Means Christ In Me Jennifer
+[2026-11-01 08:21:10] [120/1499] Downloading/Repairing: Christmas A Time Of Joy
+[2026-11-01 08:21:15] [122/1499] Downloading/Repairing: Come Lord Jesus 2
+[2026-11-01 08:21:15] [124/1499] Downloading/Repairing: Come The Father S Love Awaits
+[2026-11-01 08:21:16] [126/1499] Downloading/Repairing: Creator Of The Universe 2
+[2026-11-01 08:21:16] [127/1499] Downloading/Repairing: Creator Of The Universe 3
+[2026-11-01 08:21:16] [128/1499] Downloading/Repairing: Creator Of The Universe Sylvia
+[2026-11-01 08:21:16] [129/1499] Downloading/Repairing: Creator Of The Universe Sylvia Loveworld Singers
+[2026-11-01 08:21:16] [132/1499] Downloading/Repairing: Crowned With Grace Simeon Rich
+[2026-11-01 08:21:16] [133/1499] Downloading/Repairing: Daddy See What I Can Do
+[2026-11-01 08:21:17] [135/1499] Downloading/Repairing: Dateless Love Loveworld Singers
+[2026-11-01 08:21:17] [138/1499] Downloading/Repairing: Dear Lord Jesus Obi Shine
+[2026-11-01 08:21:22] [140/1499] Downloading/Repairing: Dearest Shepherd 2
+[2026-11-01 08:21:22] [141/1499] Downloading/Repairing: Dearest Shepherd 3
+[2026-11-01 08:21:22] [142/1499] Downloading/Repairing: Dearest Shepherd Jeffrey
+[2026-11-01 08:21:22] [145/1499] Downloading/Repairing: Depth Of Love 2
+[2026-11-01 08:21:22] [148/1499] Downloading/Repairing: Divine Destiny 2
+[2026-11-01 08:21:23] [151/1499] Downloading/Repairing: Divine Omnipotence Simeon Rich
+[2026-11-01 08:21:23] [153/1499] Downloading/Repairing: Divinity 2
+[2026-11-01 08:21:23] [160/1499] Downloading/Repairing: Eternal Immortal Pst Saki
+[2026-11-01 08:21:28] [162/1499] Downloading/Repairing: Eternal Immortal God Pastor Saki
+[2026-11-01 08:21:28] [164/1499] Downloading/Repairing: Eternity Enthroned 2
+[2026-11-01 08:21:28] [166/1499] Downloading/Repairing: Eternity Is Set In My Heart 2
+[2026-11-01 08:21:29] [169/1499] Downloading/Repairing: Eternity The Mystery Unveiled 2
+[2026-11-01 08:21:29] [176/1499] Downloading/Repairing: Everyday 2
+[2026-11-01 08:21:29] [178/1499] Downloading/Repairing: Everything You Do Is Good 2
+[2026-11-01 08:21:29] [179/1499] Downloading/Repairing: Everything You Do Is Good 3
+[2026-11-01 08:21:29] [180/1499] Downloading/Repairing: Everything You Do Is Good Dsa
+[2026-11-01 08:21:29] [181/1499] Downloading/Repairing: Everything You Do Is Good Sharon Jonathan
+[2026-11-01 08:21:30] [184/1499] Downloading/Repairing: Extraordinary Strategist 2
+[2026-11-01 08:21:30] [185/1499] Downloading/Repairing: Extraordinary Strategist Faith
+[2026-11-01 08:21:30] [187/1499] Downloading/Repairing: Faith Not Reason
+[2026-11-01 08:21:30] [189/1499] Downloading/Repairing: Faithful And Just 2
+[2026-11-01 08:21:30] [192/1499] Downloading/Repairing: Father In Me Several Languages
+[2026-11-01 08:21:35] [194/1499] Downloading/Repairing: Father Of Glory 2
+[2026-11-01 08:21:36] [195/1499] Downloading/Repairing: Father Of Glory Vashaun Loveworld Singers
+[2026-11-01 08:21:36] [196/1499] Downloading/Repairing: Father Of Glory Vashuan
+[2026-11-01 08:21:36] [200/1499] Downloading/Repairing: Father Of Love Vashaun Loveworld Singers
+[2026-11-01 08:21:37] [201/1499] Downloading/Repairing: Father S Heart Unveiled
+[2026-11-01 08:21:37] [202/1499] Downloading/Repairing: Father S Love Reaveled
+[2026-11-01 08:21:42] [203/1499] Downloading/Repairing: Father S Love Son Loveworld Singers
+[2026-11-01 08:21:42] [210/1499] Downloading/Repairing: For All You Ve Done
+[2026-11-01 08:21:42] [212/1499] Downloading/Repairing: Hs Oct 2026 D3 For Your Glory
+[2026-11-01 08:21:42] [215/1499] Downloading/Repairing: Forever Grateful Sylvia
+[2026-11-01 08:21:47] [216/1499] Downloading/Repairing: Hs Oct 2026 D1 Forever Is Your Throne
+[2026-11-01 08:21:49] [218/1499] Downloading/Repairing: Forever Lord You Reign 2
+[2026-11-01 08:21:49] [219/1499] Downloading/Repairing: Forever Lord You Reign Pastor Saki
+[2026-11-01 08:21:49] [221/1499] Downloading/Repairing: Forever O Lord Chookar
+[2026-11-01 08:21:55] [223/1499] Downloading/Repairing: Forever Oh Lord 2
+[2026-11-01 08:21:55] [226/1499] Downloading/Repairing: Forever True Sammy
+[2026-11-01 08:22:00] [227/1499] Downloading/Repairing: Forever You Re God
+[2026-11-01 08:22:00] [230/1499] Downloading/Repairing: Freely Chookar
+[2026-11-01 08:22:05] [234/1499] Downloading/Repairing: From The Ends Of The Earth Treasure
+[2026-11-01 08:22:05] [235/1499] Downloading/Repairing: Fullness Of God Maya
+[2026-11-01 08:22:10] [240/1499] Downloading/Repairing: Giver Of Life Loveworld Orchestra
+[2026-11-01 08:22:16] [241/1499] Downloading/Repairing: Giver Of Life Orchestra
+[2026-11-01 08:22:16] [244/1499] Downloading/Repairing: Glorious Father Jerry K
+[2026-11-01 08:22:16] [246/1499] Downloading/Repairing: Glorious God 2
+[2026-11-01 08:22:16] [247/1499] Downloading/Repairing: Glorious God 3
+[2026-11-01 08:22:16] [248/1499] Downloading/Repairing: Glorious God Simeon Rich
+[2026-11-01 08:22:16] [249/1499] Downloading/Repairing: Glorious God Simeon Rich Loveworld Singers
+[2026-11-01 08:22:17] [251/1499] Downloading/Repairing: Glorious In All Your Ways 2
+[2026-11-01 08:22:17] [253/1499] Downloading/Repairing: Glorious In All Your Ways Korede
+[2026-11-01 08:22:17] [256/1499] Downloading/Repairing: Glorious Life Obi Shine Loveworld Singers
+[2026-11-01 08:22:22] [269/1499] Downloading/Repairing: Glory To The King 2
+[2026-11-01 08:22:22] [270/1499] Downloading/Repairing: Glory To The King Loveworld Singers Obi Shine
+[2026-11-01 08:22:27] [274/1499] Downloading/Repairing: God All Powerful
+[2026-11-01 08:22:27] [278/1499] Downloading/Repairing: God Is Able 2
+[2026-11-01 08:22:28] [282/1499] Downloading/Repairing: God Of All Ages 2
+[2026-11-01 08:22:28] [283/1499] Downloading/Repairing: God Of All Ages 3
+[2026-11-01 08:22:28] [284/1499] Downloading/Repairing: God Of All Ages Oge
+[2026-11-01 08:22:28] [285/1499] Downloading/Repairing: God Of All Ages Oge Loveworld Singers
+[2026-11-01 08:22:28] [286/1499] Downloading/Repairing: God Of All Comfort 2
+[2026-11-01 08:22:28] [288/1499] Downloading/Repairing: God Of All Comfort Vashuan
+[2026-11-01 08:22:29] [290/1499] Downloading/Repairing: God Of All Grace 2
+[2026-11-01 08:22:29] [292/1499] Downloading/Repairing: God Of All Grace Maya And Eli J
+[2026-11-01 08:22:34] [298/1499] Downloading/Repairing: God Of Heaven And Earth 6
+[2026-11-01 08:22:34] [299/1499] Downloading/Repairing: God Of Heaven And Earth 7
+[2026-11-01 08:22:34] [300/1499] Downloading/Repairing: God Of Heaven And Earth 8
+[2026-11-01 08:22:34] [301/1499] Downloading/Repairing: God Of Heaven And Earth 12
+[2026-11-01 08:22:35] [303/1499] Downloading/Repairing: God Of Heaven And Earth 2
+[2026-11-01 08:22:35] [304/1499] Downloading/Repairing: God Of Heaven And Earth 3
+[2026-11-01 08:22:35] [305/1499] Downloading/Repairing: God Of Heaven And Earth 4
+[2026-11-01 08:22:35] [306/1499] Downloading/Repairing: God Of Heaven And Earth 5
+[2026-11-01 08:22:35] [307/1499] Downloading/Repairing: God Of Heaven And Earth 9
+[2026-11-01 08:22:35] [308/1499] Downloading/Repairing: God Of Heaven And Earth 10
+[2026-11-01 08:22:36] [309/1499] Downloading/Repairing: God Of Heaven And Earth 11
+[2026-11-01 08:22:36] [315/1499] Downloading/Repairing: God Of Love 2
+[2026-11-01 08:22:36] [322/1499] Downloading/Repairing: God Of Power And Might 2
+[2026-11-01 08:22:36] [324/1499] Downloading/Repairing: God Of The Heavenly Pantheon 2
+[2026-11-01 08:22:37] [325/1499] Downloading/Repairing: God Of The Heavenly Pantheon Vashuan
+[2026-11-01 08:22:37] [328/1499] Downloading/Repairing: God Yet Man Sylvia Loveworld Singers
+[2026-11-01 08:22:37] [329/1499] Downloading/Repairing: God Yet Man
+[2026-11-01 08:22:37] [330/1499] Downloading/Repairing: God S Transcendent Power Is Here
+[2026-11-01 08:22:37] [332/1499] Downloading/Repairing: Good To Me 2
+[2026-11-01 08:22:38] [336/1499] Downloading/Repairing: Gracious Is The Lord 2
+[2026-11-01 08:22:38] [349/1499] Downloading/Repairing: Great King Of All 2
+[2026-11-01 08:22:38] [350/1499] Downloading/Repairing: Great King Of All Korede
+[2026-11-01 08:22:38] [354/1499] Downloading/Repairing: Great Great God
+[2026-11-01 08:22:43] [356/1499] Downloading/Repairing: Hs Oct 2026 D3 Greater Than All
+[2026-11-01 08:22:44] [357/1499] Downloading/Repairing: Greatest Friend Oge
+[2026-11-01 08:22:44] [366/1499] Downloading/Repairing: Hallelujah You Reign
+[2026-11-01 08:22:44] [368/1499] Downloading/Repairing: Halleluyah Classic
+[2026-11-01 08:22:44] [369/1499] Downloading/Repairing: Halleluyah Chant Orchestra
+[2026-11-01 08:22:49] [370/1499] Downloading/Repairing: Halleluyah Worship Chant Christmas
+[2026-11-01 08:22:54] [371/1499] Downloading/Repairing: Halleluyah You Reign
+[2026-11-01 08:22:54] [373/1499] Downloading/Repairing: Hallowed Be Your Name 2
+[2026-11-01 08:22:55] [380/1499] Downloading/Repairing: He Is Jesus Pastor Saki And Rita Soul
+[2026-11-01 08:22:55] [382/1499] Downloading/Repairing: He Knows Your Name 2
+[2026-11-01 08:22:55] [383/1499] Downloading/Repairing: He Ll Make You Whole
+[2026-11-01 08:22:55] [384/1499] Downloading/Repairing: He S Here
+[2026-11-01 08:22:55] [385/1499] Downloading/Repairing: He S Here 2
+[2026-11-01 08:22:56] [386/1499] Downloading/Repairing: He S The God Of Mercy And Grace
+[2026-11-01 08:22:56] [387/1499] Downloading/Repairing: He S The Joy You Need
+[2026-11-01 08:23:01] [390/1499] Downloading/Repairing: Healing In His Name Simeon Rich
+[2026-11-01 08:23:01] [394/1499] Downloading/Repairing: Hs Oct 2026 D2 Healing To The Nations
+[2026-11-01 08:23:01] [397/1499] Downloading/Repairing: Heart Of Worship 2
+[2026-11-01 08:23:01] [398/1499] Downloading/Repairing: Heart Of Worship Lerato Falon Lw Singers Sa
+[2026-11-01 08:23:07] [400/1499] Downloading/Repairing: Hearts Filled With Joy Faith Ejura
+[2026-11-01 08:23:07] [402/1499] Downloading/Repairing: Heaven Father Pastor Saki
+[2026-11-01 08:23:12] [404/1499] Downloading/Repairing: Heavenly Father Vashuan
+[2026-11-01 08:23:12] [405/1499] Downloading/Repairing: Heavens Declare Maya
+[2026-11-01 08:23:17] [407/1499] Downloading/Repairing: His Glorious Church Chisom
+[2026-11-01 08:23:17] [409/1499] Downloading/Repairing: His Glorious Power Vanessa
+[2026-11-01 08:23:17] [412/1499] Downloading/Repairing: His Name Is Jesus Blessing Daverock Christmas Eve Service
+[2026-11-01 08:23:23] [414/1499] Downloading/Repairing: His Overwhelming Grace Viwe Nikita
+[2026-11-01 08:23:23] [418/1499] Downloading/Repairing: Holy Are You Lord 2
+[2026-11-01 08:23:23] [420/1499] Downloading/Repairing: Holy Are You Lord 3
+[2026-11-01 08:23:23] [421/1499] Downloading/Repairing: Hs Oct 2026 D1 Holy Are You Lord Hslhs October 2026 Rendition
+[2026-11-01 08:23:23] [422/1499] Downloading/Repairing: Hs Oct 2026 D3 Holy Are You Lord October 2026 Healing Streams Day 3 Rendition
+[2026-11-01 08:23:23] [424/1499] Downloading/Repairing: Hs Oct 2026 D1 Holy God Hslhs October 2026 Rendition
+[2026-11-01 08:23:24] [428/1499] Downloading/Repairing: Holy Is The Lamb 2
+[2026-11-01 08:23:24] [429/1499] Downloading/Repairing: Holy Is The Lamb Oge
+[2026-11-01 08:23:24] [432/1499] Downloading/Repairing: Holy Lamb Of God 2
+[2026-11-01 08:23:27] [433/1499] Downloading/Repairing: Holy Lamb Of God 3
+[2026-11-01 08:23:27] [434/1499] Downloading/Repairing: Holy Lamb Of God Chisom
+[2026-11-01 08:23:27] [436/1499] Downloading/Repairing: Holy Most Holy Maya
+[2026-11-01 08:23:27] [438/1499] Downloading/Repairing: Holy Of Holies 2
+[2026-11-01 08:23:27] [439/1499] Downloading/Repairing: Holy Of Holies 3
+[2026-11-01 08:23:28] [440/1499] Downloading/Repairing: Holy Of Holies Oge
+[2026-11-01 08:23:28] [442/1499] Downloading/Repairing: Holy Spirit Shine Through Me
+[2026-11-01 08:23:28] [443/1499] Downloading/Repairing: Holy Spirit You Shine Through Me
+[2026-11-01 08:23:28] [444/1499] Downloading/Repairing: Holy Most Holy 2
+[2026-11-01 08:23:28] [447/1499] Downloading/Repairing: How Excellent Is Your Name Treasure
+[2026-11-01 08:23:29] [451/1499] Downloading/Repairing: How Great You Are Sammie
+[2026-11-01 08:23:34] [455/1499] Downloading/Repairing: I Adore You 2
+[2026-11-01 08:23:34] [457/1499] Downloading/Repairing: I Am Complete In You 2
+[2026-11-01 08:23:34] [462/1499] Downloading/Repairing: I Am One With You Vanessa
+[2026-11-01 08:23:34] [464/1499] Downloading/Repairing: I Am That I Am Jennifer
+[2026-11-01 08:23:39] [465/1499] Downloading/Repairing: Hs Oct 2026 D3 I Am Who You Say I Am
+[2026-11-01 08:23:40] [467/1499] Downloading/Repairing: I Bless Your Name 2
+[2026-11-01 08:23:40] [469/1499] Downloading/Repairing: I Bloom In Your Warm Embrace Rita Soul
+[2026-11-01 08:23:40] [476/1499] Downloading/Repairing: I Exalt You Mp3
+[2026-11-01 08:23:45] [481/1499] Downloading/Repairing: I Hear The Sound 2
+[2026-11-01 08:23:45] [485/1499] Downloading/Repairing: I Live To Honour You 2
+[2026-11-01 08:23:46] [486/1499] Downloading/Repairing: I Love You Lord 3
+[2026-11-01 08:23:46] [488/1499] Downloading/Repairing: I Love You Now And Always Blessing
+[2026-11-01 08:23:46] [489/1499] Downloading/Repairing: I Love You Now And Always Loveworld Singers
+[2026-11-01 08:23:46] [491/1499] Downloading/Repairing: I Love You Lord 2
+[2026-11-01 08:23:46] [493/1499] Downloading/Repairing: I Praise Your Name Ruthney Loveworld Singers
+[2026-11-01 08:23:51] [495/1499] Downloading/Repairing: I See 2
+[2026-11-01 08:23:52] [496/1499] Downloading/Repairing: I See 3
+[2026-11-01 08:23:52] [497/1499] Downloading/Repairing: I See You Are Healed
+[2026-11-01 08:23:52] [500/1499] Downloading/Repairing: I See The Glory 2
+[2026-11-01 08:23:52] [502/1499] Downloading/Repairing: I See The Glory Pastor Saki
+[2026-11-01 08:23:52] [503/1499] Downloading/Repairing: I See The Glory Pst Saki
+[2026-11-01 08:23:53] [507/1499] Downloading/Repairing: I Will Extol 2
+[2026-11-01 08:23:53] [511/1499] Downloading/Repairing: I Worship You Forevermore Rita Soul
+[2026-11-01 08:23:53] [513/1499] Downloading/Repairing: I Ll Never Let You Down
+[2026-11-01 08:23:53] [514/1499] Downloading/Repairing: I Ll Never Stop Praising You
+[2026-11-01 08:23:53] [515/1499] Downloading/Repairing: I M Alive Because You Live
+[2026-11-01 08:23:54] [516/1499] Downloading/Repairing: I M Satfisfied In Your Love Pastor Ruthney
+[2026-11-01 08:23:59] [517/1499] Downloading/Repairing: I M The Light
+[2026-11-01 08:24:05] [518/1499] Downloading/Repairing: Immortal Invincible God 2
+[2026-11-01 08:24:05] [519/1499] Downloading/Repairing: Immortal Invincible God Simeon Rich
+[2026-11-01 08:24:05] [520/1499] Downloading/Repairing: Immortal Invincible God Simeonrich
+[2026-11-01 08:24:05] [523/1499] Downloading/Repairing: Imperial Majesty 2
+[2026-11-01 08:24:06] [529/1499] Downloading/Repairing: In His Name 2
+[2026-11-01 08:24:06] [535/1499] Downloading/Repairing: In You I Live 2
+[2026-11-01 08:24:06] [537/1499] Downloading/Repairing: In Your Image 2
+[2026-11-01 08:24:06] [542/1499] Downloading/Repairing: Inexhaustible Source Faith Ajura
+[2026-11-01 08:24:06] [548/1499] Downloading/Repairing: Instruments Of Praise 2
+[2026-11-01 08:24:07] [552/1499] Downloading/Repairing: It S A New Day
+[2026-11-01 08:24:07] [553/1499] Downloading/Repairing: It S A Privilege
+[2026-11-01 08:24:07] [554/1499] Downloading/Repairing: It S Time To Be Born Again
+[2026-11-01 08:24:07] [555/1499] Downloading/Repairing: Hs Oct 2026 D1 Your Set Time
+[2026-11-01 08:24:07] [557/1499] Downloading/Repairing: Hs Oct 2026 D1 Jesus Calms The Storm
+[2026-11-01 08:24:08] [562/1499] Downloading/Repairing: Jesus Is Here 2
+[2026-11-01 08:24:08] [563/1499] Downloading/Repairing: Jesus Is Here Maya
+[2026-11-01 08:24:08] [564/1499] Downloading/Repairing: Jesus Is Here Choral
+[2026-11-01 08:24:08] [566/1499] Downloading/Repairing: Jesus Is The Answer Peace Money Cannot Buy Alex Vashuan Pastor Ruthney
+[2026-11-01 08:24:08] [569/1499] Downloading/Repairing: Jesus Makes You Well 2
+[2026-11-01 08:24:08] [572/1499] Downloading/Repairing: Jesus The Only One That Saves
+[2026-11-01 08:24:09] [573/1499] Downloading/Repairing: Jesus The Resurrection And The Life
+[2026-11-01 08:24:09] [578/1499] Downloading/Repairing: Joy To The World The Saviour Is Born
+[2026-11-01 08:24:14] [581/1499] Downloading/Repairing: Just Believe Receive
+[2026-11-01 08:24:14] [584/1499] Downloading/Repairing: Hs Oct 2026 D3 King Divine
+[2026-11-01 08:24:14] [588/1499] Downloading/Repairing: King Of Eternity Pn25
+[2026-11-01 08:24:14] [592/1499] Downloading/Repairing: King Of Kings 2
+[2026-11-01 08:24:15] [593/1499] Downloading/Repairing: King Of Kings 3
+[2026-11-01 08:24:15] [594/1499] Downloading/Repairing: King Of Kings 4
+[2026-11-01 08:24:15] [597/1499] Downloading/Repairing: King Of Righteousness Kasid
+[2026-11-01 08:24:15] [598/1499] Downloading/Repairing: King Of The Nations Maya
+[2026-11-01 08:24:15] [602/1499] Downloading/Repairing: Knowing You 2
+[2026-11-01 08:24:16] [612/1499] Downloading/Repairing: Living Water Chookar
+[2026-11-01 08:24:16] [616/1499] Downloading/Repairing: Lord God 2
+[2026-11-01 08:24:16] [618/1499] Downloading/Repairing: Lord Jesus Obi Shine
+[2026-11-01 08:24:21] [623/1499] Downloading/Repairing: Lord Jesus Our King 2
+[2026-11-01 08:24:21] [624/1499] Downloading/Repairing: Lord Jesus You Are Deity
+[2026-11-01 08:24:21] [625/1499] Downloading/Repairing: Lord Jesus You Re Deity
+[2026-11-01 08:24:22] [630/1499] Downloading/Repairing: Lord Over All Eli J
+[2026-11-01 08:24:22] [632/1499] Downloading/Repairing: Lord Saviour Divine 2
+[2026-11-01 08:24:22] [633/1499] Downloading/Repairing: Lord Saviour Divine 3
+[2026-11-01 08:24:22] [634/1499] Downloading/Repairing: Lord Saviour Divine Loveworld Singers
+[2026-11-01 08:24:22] [635/1499] Downloading/Repairing: Lord Saviour Divine Uche
+[2026-11-01 08:24:23] [636/1499] Downloading/Repairing: Lord The Spirit 2
+[2026-11-01 08:24:23] [641/1499] Downloading/Repairing: Lord You Are Beautiful 2
+[2026-11-01 08:24:23] [643/1499] Downloading/Repairing: Lord You Are Beautiful Oge Loveworld Singers
+[2026-11-01 08:24:23] [649/1499] Downloading/Repairing: Lord You Reign Israel Osho
+[2026-11-01 08:24:28] [650/1499] Downloading/Repairing: Lord You Reign Simeon Rich
+[2026-11-01 08:24:36] [653/1499] Downloading/Repairing: Lord You Are Wonderful 2
+[2026-11-01 08:24:36] [658/1499] Downloading/Repairing: Love Like No Other 2
+[2026-11-01 08:24:36] [660/1499] Downloading/Repairing: Love So Pure And True Sylvia
+[2026-11-01 08:24:36] [663/1499] Downloading/Repairing: Love Unforgettable 2
+[2026-11-01 08:24:37] [664/1499] Downloading/Repairing: Love Unforgettable Faith
+[2026-11-01 08:24:37] [665/1499] Downloading/Repairing: Love Unforgettable 3
+[2026-11-01 08:24:37] [667/1499] Downloading/Repairing: Loveworld Anthem
+[2026-11-01 08:24:37] [668/1499] Downloading/Repairing: Loveworld Anthem We Adore You
+[2026-11-01 08:24:37] [669/1499] Downloading/Repairing: Loveworld Orchestra 3
+[2026-11-01 08:24:42] [670/1499] Downloading/Repairing: Loveworld Orchestra Instrumental Play
+[2026-11-01 08:24:48] [671/1499] Downloading/Repairing: October 2026 Communion Service Renditions Compilation
+[2026-11-01 08:24:53] [673/1499] Downloading/Repairing: Loving God I Give You Thanks 2
+[2026-11-01 08:24:53] [675/1499] Downloading/Repairing: Luminous Ecclesia 2
+[2026-11-01 08:24:53] [678/1499] Downloading/Repairing: Magnificent You Are Faith Ejura
+[2026-11-01 08:24:53] [680/1499] Downloading/Repairing: Manifestly Declared Israel
+[2026-11-01 08:24:54] [687/1499] Downloading/Repairing: Matchless Name 2
+[2026-11-01 08:24:54] [689/1499] Downloading/Repairing: Medley Thank You Lord Loveworld Lyrics
+[2026-11-01 08:24:59] [690/1499] Downloading/Repairing: Medley Resounding Praise And Saviour Divine
+[2026-11-01 08:24:59] [693/1499] Downloading/Repairing: Medley 10 Loveworld Singers
+[2026-11-01 08:25:04] [705/1499] Downloading/Repairing: Medley 20 2
+[2026-11-01 08:25:04] [710/1499] Downloading/Repairing: Hs Oct 2026 D2 Medley 24
+[2026-11-01 08:25:09] [711/1499] Downloading/Repairing: Hs Oct 2026 D1 Medley 25
+[2026-11-01 08:25:10] [712/1499] Downloading/Repairing: Hs Oct 2026 D3 Medley 26
+[2026-11-01 08:25:10] [714/1499] Downloading/Repairing: Medley 3 February Praise Service
+[2026-11-01 08:25:10] [715/1499] Downloading/Repairing: Medley 3 Loveworld Singers
+[2026-11-01 08:25:15] [717/1499] Downloading/Repairing: Medley 4 2
+[2026-11-01 08:25:15] [718/1499] Downloading/Repairing: Medley 4 Hslhs 8
+[2026-11-01 08:25:16] [720/1499] Downloading/Repairing: Medley 5 2
+[2026-11-01 08:25:16] [722/1499] Downloading/Repairing: Medley 6 Hslhs 8
+[2026-11-01 08:25:16] [724/1499] Downloading/Repairing: Medley 7 2
+[2026-11-01 08:25:16] [725/1499] Downloading/Repairing: Medley 7 3
+[2026-11-01 08:25:16] [726/1499] Downloading/Repairing: Medley 7 Loveworld Singers
+[2026-11-01 08:25:21] [727/1499] Downloading/Repairing: Medley 7 Praise Night 18
+[2026-11-01 08:25:22] [737/1499] Downloading/Repairing: Mighty Is Our King 2
+[2026-11-01 08:25:22] [738/1499] Downloading/Repairing: Mighty Is Our King Alex
+[2026-11-01 08:25:27] [742/1499] Downloading/Repairing: Miracles Are Real 2
+[2026-11-01 08:25:27] [745/1499] Downloading/Repairing: More Than A Wonder To Me Jennifer And Obi Shine
+[2026-11-01 08:25:32] [750/1499] Downloading/Repairing: More Than Life To Me 2
+[2026-11-01 08:25:34] [751/1499] Downloading/Repairing: More Than Life To Me Pastor Saki Loveworld Singers
+[2026-11-01 08:25:34] [753/1499] Downloading/Repairing: Morning Dew 2
+[2026-11-01 08:25:34] [754/1499] Downloading/Repairing: Morning Dew 3
+[2026-11-01 08:25:34] [755/1499] Downloading/Repairing: Morning Dew Pastor Saki Loveworld Singers
+[2026-11-01 08:25:35] [757/1499] Downloading/Repairing: Most High 2
+[2026-11-01 08:25:35] [759/1499] Downloading/Repairing: Most High God 2
+[2026-11-01 08:25:35] [760/1499] Downloading/Repairing: Most High God 3
+[2026-11-01 08:25:35] [761/1499] Downloading/Repairing: Most High God 4
+[2026-11-01 08:25:35] [762/1499] Downloading/Repairing: Most High God 5
+[2026-11-01 08:25:35] [763/1499] Downloading/Repairing: Most High God Sylvia
+[2026-11-01 08:25:36] [764/1499] Downloading/Repairing: Most Holy Is Your Name 4
+[2026-11-01 08:25:36] [766/1499] Downloading/Repairing: Most Holy Is Your Name 2
+[2026-11-01 08:25:36] [767/1499] Downloading/Repairing: Most Holy Is Your Name 3
+[2026-11-01 08:25:36] [768/1499] Downloading/Repairing: Most Holy Is Your Name Maya
+[2026-11-01 08:25:36] [769/1499] Downloading/Repairing: Most Holy Is Your Name Maya Loveworld Singers
+[2026-11-01 08:25:37] [771/1499] Downloading/Repairing: Most Worthy King Of Kings 2
+[2026-11-01 08:25:37] [772/1499] Downloading/Repairing: Mountain Of The Lord S House
+[2026-11-01 08:25:37] [774/1499] Downloading/Repairing: My Alabaster Box Maya
+[2026-11-01 08:25:42] [783/1499] Downloading/Repairing: My Life Honours You Oge
+[2026-11-01 08:25:47] [784/1499] Downloading/Repairing: Life And Immortality Unveiled
+[2026-11-01 08:25:48] [787/1499] Downloading/Repairing: My Saviour And Lord 2
+[2026-11-01 08:25:48] [794/1499] Downloading/Repairing: No God Greater Than You Mikayla
+[2026-11-01 08:25:53] [796/1499] Downloading/Repairing: No God Like You 2
+[2026-11-01 08:25:53] [797/1499] Downloading/Repairing: No Name Healing Streams
+[2026-11-01 08:25:58] [799/1499] Downloading/Repairing: Hs Oct 2026 D1 No Price To Pay
+[2026-11-01 08:25:58] [800/1499] Downloading/Repairing: No Way You Re Leaving Here The Same
+[2026-11-01 08:25:59] [804/1499] Downloading/Repairing: Not Ashamed Of Your Gospel 2
+[2026-11-01 08:25:59] [805/1499] Downloading/Repairing: Nothing Is Beyond You 2
+[2026-11-01 08:25:59] [807/1499] Downloading/Repairing: Nothing Is Beyond You 3
+[2026-11-01 08:25:59] [808/1499] Downloading/Repairing: Nothing Is Beyond You Dsa
+[2026-11-01 08:25:59] [812/1499] Downloading/Repairing: Oblations Of Praise 2
+[2026-11-01 08:26:00] [814/1499] Downloading/Repairing: Oblations Of Praise Israel Osho Lw Singers
+[2026-11-01 08:26:05] [815/1499] Downloading/Repairing: October Praise Service Medley Loveworld Orchestra
+[2026-11-01 08:26:10] [816/1499] Downloading/Repairing: October Praise Service Medley Loveworld Singers
+[2026-11-01 08:26:15] [818/1499] Downloading/Repairing: Offering Instrumental June 2026 Global Communion Service
+[2026-11-01 08:26:20] [830/1499] Downloading/Repairing: Oh Gracious God
+[2026-11-01 08:26:20] [831/1499] Downloading/Repairing: Oh What A Joy 2
+[2026-11-01 08:26:21] [832/1499] Downloading/Repairing: Oh What A Joy
+[2026-11-01 08:26:21] [833/1499] Downloading/Repairing: Oh Gracious God 2
+[2026-11-01 08:26:21] [843/1499] Downloading/Repairing: Only You Are God Forever 2
+[2026-11-01 08:26:21] [844/1499] Downloading/Repairing: Orchestra Praise Night 29
+[2026-11-01 08:26:26] [850/1499] Downloading/Repairing: Our Goodly Heritage 2
+[2026-11-01 08:26:26] [853/1499] Downloading/Repairing: Our Triumphant King Simeon Rich
+[2026-11-01 08:26:27] [854/1499] Downloading/Repairing: Overwhelmed Live Performance
+[2026-11-01 08:26:32] [858/1499] Downloading/Repairing: Perfect And Complete 2
+[2026-11-01 08:26:32] [863/1499] Downloading/Repairing: Power Belongs To You Dsa Loveworld Singers
+[2026-11-01 08:26:32] [865/1499] Downloading/Repairing: Praise Night 14 Orchestra
+[2026-11-01 08:26:37] [875/1499] Downloading/Repairing: Precious Lord Jesus 2
+[2026-11-01 08:26:40] [876/1499] Downloading/Repairing: Precious Lord Jesus 3
+[2026-11-01 08:26:40] [879/1499] Downloading/Repairing: Precious Word Of Truth 2
+[2026-11-01 08:26:40] [880/1499] Downloading/Repairing: Precious Word Of Truth Sylvia Loveworld Singers
+[2026-11-01 08:26:41] [882/1499] Downloading/Repairing: Reachout World Theme Song Loveworld Singers
+[2026-11-01 08:26:46] [885/1499] Downloading/Repairing: Receive Your Miracle 2
+[2026-11-01 08:26:46] [890/1499] Downloading/Repairing: Hs Oct 2026 D3 Replete With Your Love
+[2026-11-01 08:26:46] [893/1499] Downloading/Repairing: Resounding Praise 2
+[2026-11-01 08:26:46] [894/1499] Downloading/Repairing: Hs Oct 2026 D2 Resounding Praise
+[2026-11-01 08:26:47] [895/1499] Downloading/Repairing: Resounding Praise Orchestra
+[2026-11-01 08:26:47] [906/1499] Downloading/Repairing: Run Run Jennifer
+[2026-11-01 08:26:52] [917/1499] Downloading/Repairing: So I Praise You Lord You Reign
+[2026-11-01 08:26:52] [918/1499] Downloading/Repairing: So It Is Written 2
+[2026-11-01 08:26:52] [919/1499] Downloading/Repairing: So It Is Written Sylvia
+[2026-11-01 08:26:53] [920/1499] Downloading/Repairing: So It Is Written Sylvia Loveworld Singers
+[2026-11-01 08:26:53] [923/1499] Downloading/Repairing: Somebody Knows Eli J
+[2026-11-01 08:26:58] [925/1499] Downloading/Repairing: Son Of God Simeon Rich
+[2026-11-01 08:26:58] [927/1499] Downloading/Repairing: Son Of Man 2
+[2026-11-01 08:26:58] [929/1499] Downloading/Repairing: Song Of Heaven Uche
+[2026-11-01 08:27:03] [936/1499] Downloading/Repairing: Sovereign Lord You Are 2
+[2026-11-01 08:27:03] [939/1499] Downloading/Repairing: Spirit Of Truth Rozey
+[2026-11-01 08:27:04] [942/1499] Downloading/Repairing: Splendour 2
+[2026-11-01 08:27:04] [946/1499] Downloading/Repairing: Started With You Eli J
+[2026-11-01 08:27:09] [947/1499] Downloading/Repairing: Started With You Loveworld Singers
+[2026-11-01 08:27:14] [950/1499] Downloading/Repairing: Strong And Mighty Faith Loveworld Singers
+[2026-11-01 08:27:19] [952/1499] Downloading/Repairing: Strong And Mighty God 2
+[2026-11-01 08:27:19] [953/1499] Downloading/Repairing: Strong And Mighty God 3
+[2026-11-01 08:27:20] [954/1499] Downloading/Repairing: Strong And Mighty God Faith Ejura
+[2026-11-01 08:27:20] [956/1499] Downloading/Repairing: Strong And Powerful Noble
+[2026-11-01 08:27:25] [962/1499] Downloading/Repairing: Sweet Spirit Krisshill
+[2026-11-01 08:27:25] [964/1499] Downloading/Repairing: Thank You 2
+[2026-11-01 08:27:25] [965/1499] Downloading/Repairing: Thank You 3
+[2026-11-01 08:27:26] [966/1499] Downloading/Repairing: Thank You 4
+[2026-11-01 08:27:26] [967/1499] Downloading/Repairing: Thank You For All You Ve Done For Me
+[2026-11-01 08:27:31] [972/1499] Downloading/Repairing: Hs Oct 2026 D2 Thank You Holy Spirit
+[2026-11-01 08:27:31] [974/1499] Downloading/Repairing: Thank You Jesus 2
+[2026-11-01 08:27:31] [978/1499] Downloading/Repairing: That Same God 2
+[2026-11-01 08:27:32] [981/1499] Downloading/Repairing: The Air Of Your Presence Faith Ajura
+[2026-11-01 08:27:32] [982/1499] Downloading/Repairing: Hs Oct 2026 D3 The All Powerful Name
+[2026-11-01 08:27:32] [983/1499] Downloading/Repairing: The All Time Wonder
+[2026-11-01 08:27:32] [985/1499] Downloading/Repairing: Hs Oct 2026 D2 The Answer To Every Question
+[2026-11-01 08:27:32] [987/1499] Downloading/Repairing: The Appeasement For Sin Vanessa Loveworld Singers
+[2026-11-01 08:27:32] [991/1499] Downloading/Repairing: The Beauty And Joy Of My Life 2
+[2026-11-01 08:27:33] [997/1499] Downloading/Repairing: The Blessed Of The Lord 2
+[2026-11-01 08:27:33] [999/1499] Downloading/Repairing: The Christ D N A
+[2026-11-01 08:27:33] [1000/1499] Downloading/Repairing: The Christ D N A 2
+[2026-11-01 08:27:33] [1002/1499] Downloading/Repairing: The Christ Dna Faith Ejura
+[2026-11-01 08:27:33] [1003/1499] Downloading/Repairing: The Citadel Of Safety 2
+[2026-11-01 08:27:34] [1007/1499] Downloading/Repairing: The Creator That Was Never Created 3
+[2026-11-01 08:27:34] [1008/1499] Downloading/Repairing: The Creator That Was Never Created 2
+[2026-11-01 08:27:34] [1009/1499] Downloading/Repairing: Hs Oct 2026 D3 The Darkness Is Over
+[2026-11-01 08:27:34] [1018/1499] Downloading/Repairing: The Eternal Elixir 2
+[2026-11-01 08:27:34] [1022/1499] Downloading/Repairing: The Exactness Of The Invisible God Sylvia
+[2026-11-01 08:27:35] [1027/1499] Downloading/Repairing: The Father In Me Maya Simeon Rich
+[2026-11-01 08:27:35] [1028/1499] Downloading/Repairing: Hs Oct 2026 D2 The Father In Me
+[2026-11-01 08:27:35] [1029/1499] Downloading/Repairing: The Father S Heart Unveiled
+[2026-11-01 08:27:35] [1030/1499] Downloading/Repairing: The Father S Heart Unveiled 2
+[2026-11-01 08:27:35] [1031/1499] Downloading/Repairing: The Father S Love Son
+[2026-11-01 08:27:36] [1032/1499] Downloading/Repairing: The Father S Love Son 2
+[2026-11-01 08:27:36] [1033/1499] Downloading/Repairing: The Father S Love Son Maya And Eli J
+[2026-11-01 08:27:36] [1046/1499] Downloading/Repairing: The Glory Of The Unseen God 2
+[2026-11-01 08:27:36] [1047/1499] Downloading/Repairing: Hs Oct 2026 D3 The God Of All Grace October 2026 Healing Streams
+[2026-11-01 08:27:36] [1048/1499] Downloading/Repairing: Hs Oct 2026 D3 The God Who Hears
+[2026-11-01 08:27:37] [1049/1499] Downloading/Repairing: The God Man
+[2026-11-01 08:27:37] [1053/1499] Downloading/Repairing: The Great High Priest Simeon Rich
+[2026-11-01 08:27:37] [1056/1499] Downloading/Repairing: The Great Physician Is Here Sylvia
+[2026-11-01 08:27:37] [1057/1499] Downloading/Repairing: The Greatest Friend Ever Korede Maya Faith
+[2026-11-01 08:27:37] [1061/1499] Downloading/Repairing: The Greatest Lord 2
+[2026-11-01 08:27:38] [1064/1499] Downloading/Repairing: The Healer Is Here Maya
+[2026-11-01 08:27:38] [1065/1499] Downloading/Repairing: Hs Oct 2026 D1 The Healing Christ Is Here
+[2026-11-01 08:27:38] [1066/1499] Downloading/Repairing: Hs Oct 2026 D2 The Healing Christ Is Here
+[2026-11-01 08:27:38] [1068/1499] Downloading/Repairing: The Heavens Are Filled 2
+[2026-11-01 08:27:39] [1070/1499] Downloading/Repairing: The Heavens Declare 2
+[2026-11-01 08:27:39] [1074/1499] Downloading/Repairing: The I Am 2
+[2026-11-01 08:27:39] [1075/1499] Downloading/Repairing: The I Am Rozey Loveworld Singers
+[2026-11-01 08:27:39] [1087/1499] Downloading/Repairing: The Light Of Life Is Born Kome And Mary
+[2026-11-01 08:27:39] [1089/1499] Downloading/Repairing: Hs Oct 2026 D2 The Lion And The Lamb
+[2026-11-01 08:27:40] [1092/1499] Downloading/Repairing: The Living Word 2
+[2026-11-01 08:27:40] [1093/1499] Downloading/Repairing: Hs Oct 2026 D3 The Living Word October 2026 Healing Streams
+[2026-11-01 08:27:40] [1095/1499] Downloading/Repairing: Hs Oct 2026 D3 The Lord From Above
+[2026-11-01 08:27:40] [1108/1499] Downloading/Repairing: The Mountain Of The Lord S House
+[2026-11-01 08:27:40] [1117/1499] Downloading/Repairing: The Only God 2
+[2026-11-01 08:27:43] [1120/1499] Downloading/Repairing: The Only Mediator 2
+[2026-11-01 08:27:43] [1121/1499] Downloading/Repairing: The Only Mediator 3
+[2026-11-01 08:27:43] [1123/1499] Downloading/Repairing: The Only Sovereign God 2
+[2026-11-01 08:27:44] [1130/1499] Downloading/Repairing: The Perfect Sacrifice Simeon And Jebbaj
+[2026-11-01 08:27:44] [1133/1499] Downloading/Repairing: The Presence Of The Lord Is Here Rejoice
+[2026-11-01 08:27:49] [1138/1499] Downloading/Repairing: The Reason Simeon Loveworld Singers
+[2026-11-01 08:27:49] [1148/1499] Downloading/Repairing: The Sinless Christ 2
+[2026-11-01 08:27:50] [1149/1499] Downloading/Repairing: The Sinless Christ Oge Loveworld Singers
+[2026-11-01 08:27:50] [1151/1499] Downloading/Repairing: Hs Oct 2026 D3 The Spirit Of Life
+[2026-11-01 08:27:50] [1162/1499] Downloading/Repairing: The Time Is Now 2
+[2026-11-01 08:27:50] [1163/1499] Downloading/Repairing: The Time Is Now Tsharp
+[2026-11-01 08:27:50] [1164/1499] Downloading/Repairing: The Time Is Now Choral
+[2026-11-01 08:27:50] [1171/1499] Downloading/Repairing: There Is A Miracle For You Maya
+[2026-11-01 08:27:51] [1174/1499] Downloading/Repairing: There Is Nothing Impossible Viwe Nikita
+[2026-11-01 08:27:51] [1175/1499] Downloading/Repairing: There S A Miracle For You
+[2026-11-01 08:27:51] [1176/1499] Downloading/Repairing: There S A Miracle For You Today
+[2026-11-01 08:27:51] [1177/1499] Downloading/Repairing: There S A Miracle For You Today 2
+[2026-11-01 08:27:51] [1178/1499] Downloading/Repairing: There S A Miracle In This Place
+[2026-11-01 08:27:52] [1179/1499] Downloading/Repairing: There S A Miracle In This Place 2
+[2026-11-01 08:27:52] [1180/1499] Downloading/Repairing: There S An Avalanche Of Miracles
+[2026-11-01 08:27:52] [1181/1499] Downloading/Repairing: There S No Other Name
+[2026-11-01 08:27:57] [1182/1499] Downloading/Repairing: There S No Way You Re Leaving Here The Same
+[2026-11-01 08:27:57] [1183/1499] Downloading/Repairing: There S Nothing Impossible
+[2026-11-01 08:27:58] [1184/1499] Downloading/Repairing: There S One Who Loves You
+[2026-11-01 08:27:58] [1185/1499] Downloading/Repairing: There S Power In This Place
+[2026-11-01 08:27:58] [1186/1499] Downloading/Repairing: There S Power In This Place 2
+[2026-11-01 08:27:58] [1187/1499] Downloading/Repairing: There S Power In This Place 3
+[2026-11-01 08:27:58] [1191/1499] Downloading/Repairing: They That Wait On You Loveworld Ochestra
+[2026-11-01 08:27:59] [1194/1499] Downloading/Repairing: This Glorious Life 2
+[2026-11-01 08:27:59] [1195/1499] Downloading/Repairing: This Glorious Life 3
+[2026-11-01 08:27:59] [1201/1499] Downloading/Repairing: Timeless Sylvia
+[2026-11-01 08:27:59] [1205/1499] Downloading/Repairing: To The Ends Of The Earth 2
+[2026-11-01 08:28:00] [1206/1499] Downloading/Repairing: To The Ends Of The Earth 3
+[2026-11-01 08:28:00] [1207/1499] Downloading/Repairing: To The Ends Of The Earth Korede Loveworld Singers
+[2026-11-01 08:28:00] [1211/1499] Downloading/Repairing: Totality Of Deity Vashuan
+[2026-11-01 08:28:00] [1214/1499] Downloading/Repairing: Truth And Grace 2
+[2026-11-01 08:28:00] [1215/1499] Downloading/Repairing: Truth And Grace Vashuan
+[2026-11-01 08:28:05] [1217/1499] Downloading/Repairing: Truth On The Pages Of Eternity Sylvia
+[2026-11-01 08:28:06] [1222/1499] Downloading/Repairing: Unchanging God Uche
+[2026-11-01 08:28:06] [1225/1499] Downloading/Repairing: Unending Praise 2
+[2026-11-01 08:28:06] [1226/1499] Downloading/Repairing: Unending Praise 3
+[2026-11-01 08:28:06] [1227/1499] Downloading/Repairing: Unending Praise Loveworld Singers
+[2026-11-01 08:28:06] [1229/1499] Downloading/Repairing: Unending Reign 2
+[2026-11-01 08:28:07] [1230/1499] Downloading/Repairing: Unrivaled Authority Chookar
+[2026-11-01 08:28:12] [1234/1499] Downloading/Repairing: Unto You Deacon Conrade
+[2026-11-01 08:28:12] [1236/1499] Downloading/Repairing: Unto You We Lift Our Voice Pastor Saki
+[2026-11-01 08:28:12] [1237/1499] Downloading/Repairing: Hs Oct 2026 D3 Unto You We Lift Our Voice October 2026 Healing Streams Day 3 Rendition
+[2026-11-01 08:28:12] [1238/1499] Downloading/Repairing: Unto You We Lift Our Voice 2
+[2026-11-01 08:28:12] [1240/1499] Downloading/Repairing: Victorious God Treasure
+[2026-11-01 08:28:18] [1243/1499] Downloading/Repairing: Voice Of Life Choral
+[2026-11-01 08:28:18] [1247/1499] Downloading/Repairing: We Are A Blessed People 2
+[2026-11-01 08:28:18] [1249/1499] Downloading/Repairing: We Are Blessed People Eniola March Com
+[2026-11-01 08:28:18] [1254/1499] Downloading/Repairing: We Ascribe All Greatness 2
+[2026-11-01 08:28:18] [1256/1499] Downloading/Repairing: We Bring You Healing Eniola
+[2026-11-01 08:28:18] [1261/1499] Downloading/Repairing: We Give Thanks 2
+[2026-11-01 08:28:19] [1262/1499] Downloading/Repairing: We Give Thanks Loveworld Ochestra
+[2026-11-01 08:28:19] [1264/1499] Downloading/Repairing: We Give You Thanks 2
+[2026-11-01 08:28:19] [1265/1499] Downloading/Repairing: Hs Oct 2026 D2 We Give You Thanks
+[2026-11-01 08:28:19] [1270/1499] Downloading/Repairing: We Hail From Deity 2
+[2026-11-01 08:28:19] [1271/1499] Downloading/Repairing: We Hail From Diety Oge Loveworld Singers
+[2026-11-01 08:28:25] [1274/1499] Downloading/Repairing: We Lift Our Voice In Triumphant Songs 2
+[2026-11-01 08:28:25] [1277/1499] Downloading/Repairing: We Praise 2
+[2026-11-01 08:28:25] [1279/1499] Downloading/Repairing: We Proclaim Your Matchless Name 2
+[2026-11-01 08:28:25] [1284/1499] Downloading/Repairing: We Sing Praise Sammy Mcauley Loveworld Singers
+[2026-11-01 08:28:30] [1286/1499] Downloading/Repairing: We Thank You 2
+[2026-11-01 08:28:31] [1289/1499] Downloading/Repairing: We Triumph Pu Sophiya
+[2026-11-01 08:28:31] [1296/1499] Downloading/Repairing: What A Life 2
+[2026-11-01 08:28:31] [1300/1499] Downloading/Repairing: What A Privilege Choral
+[2026-11-01 08:28:31] [1301/1499] Downloading/Repairing: What A Privilege Rita Soul
+[2026-11-01 08:28:31] [1308/1499] Downloading/Repairing: Who But God Choral
+[2026-11-01 08:28:31] [1312/1499] Downloading/Repairing: With Every Breath 2
+[2026-11-01 08:28:32] [1313/1499] Downloading/Repairing: With Every Breath 3
+[2026-11-01 08:28:32] [1314/1499] Downloading/Repairing: With Every Breath Uche
+[2026-11-01 08:28:32] [1317/1499] Downloading/Repairing: With Lifted Hands Oh Righteous God
+[2026-11-01 08:28:37] [1320/1499] Downloading/Repairing: With My Voice Lifted Up 2
+[2026-11-01 08:28:37] [1321/1499] Downloading/Repairing: Woman Healed From Infirmities Rita Soul Chisom
+[2026-11-01 08:28:37] [1327/1499] Downloading/Repairing: Worthy Are You Lord Simeon Rich
+[2026-11-01 08:28:38] [1328/1499] Downloading/Repairing: Worthy Are You Lord
+[2026-11-01 08:28:38] [1329/1499] Downloading/Repairing: Worthy Is The Lamb 3
+[2026-11-01 08:28:38] [1331/1499] Downloading/Repairing: Worthy Is The Lamb 2
+[2026-11-01 08:28:38] [1340/1499] Downloading/Repairing: You Are Beautiful 2
+[2026-11-01 08:28:38] [1344/1499] Downloading/Repairing: You Are Eternity 2
+[2026-11-01 08:28:39] [1345/1499] Downloading/Repairing: You Are Eternity Vanessa
+[2026-11-01 08:28:39] [1347/1499] Downloading/Repairing: You Are Exalted 2
+[2026-11-01 08:28:39] [1348/1499] Downloading/Repairing: You Are Exalted Maya Loveworld Singers
+[2026-11-01 08:28:39] [1350/1499] Downloading/Repairing: You Are God Rita Soul And Vashuan Choral
+[2026-11-01 08:28:39] [1352/1499] Downloading/Repairing: You Are Great 2
+[2026-11-01 08:28:40] [1355/1499] Downloading/Repairing: You Are Healed In Jesus Name
+[2026-11-01 08:28:40] [1357/1499] Downloading/Repairing: You Are Holy 2
+[2026-11-01 08:28:40] [1358/1499] Downloading/Repairing: You Are Holy 3
+[2026-11-01 08:28:40] [1359/1499] Downloading/Repairing: You Are Holy 4
+[2026-11-01 08:28:40] [1360/1499] Downloading/Repairing: You Are Holy Rita Soul
+[2026-11-01 08:28:41] [1361/1499] Downloading/Repairing: Hs Oct 2026 D2 You Are Holy
+[2026-11-01 08:28:41] [1366/1499] Downloading/Repairing: You Are My Shelter 2
+[2026-11-01 08:28:41] [1370/1499] Downloading/Repairing: You Are The Beauty Of The Ages Vanessa
+[2026-11-01 08:28:41] [1371/1499] Downloading/Repairing: You Are The Beauty Of The Ages Vanessa Loveworld Singers
+[2026-11-01 08:28:41] [1373/1499] Downloading/Repairing: You Are The Christ Maya
+[2026-11-01 08:28:42] [1376/1499] Downloading/Repairing: You Are The King Of Glory Mikayla
+[2026-11-01 08:28:42] [1380/1499] Downloading/Repairing: You Are The Lord 2
+[2026-11-01 08:28:42] [1382/1499] Downloading/Repairing: You Are The One Eli J Jennifer Jude
+[2026-11-01 08:28:47] [1385/1499] Downloading/Repairing: You Are The Only One Like You Orchestra
+[2026-11-01 08:28:55] [1388/1499] Downloading/Repairing: Hs Oct 2026 D2 You Came From Eternity
+[2026-11-01 08:28:55] [1390/1499] Downloading/Repairing: You Commanded Praise 2
+[2026-11-01 08:28:55] [1391/1499] Downloading/Repairing: You Commanded Praise 3
+[2026-11-01 08:28:56] [1396/1499] Downloading/Repairing: You Have Triumphed Gloriously Loveworld Singers
+[2026-11-01 08:28:56] [1397/1499] Downloading/Repairing: You Keep My Heart In Perfect Peace Chookar
+[2026-11-01 08:28:56] [1404/1499] Downloading/Repairing: You Rule 2
+[2026-11-01 08:29:01] [1406/1499] Downloading/Repairing: You Said Let There
+[2026-11-01 08:29:01] [1407/1499] Downloading/Repairing: You Said Let There Be 2
+[2026-11-01 08:29:01] [1409/1499] Downloading/Repairing: You Sit Above The Cherubim Loveworld Singers
+[2026-11-01 08:29:02] [1410/1499] Downloading/Repairing: You Sit Above The Cherubim Maya
+[2026-11-01 08:29:02] [1412/1499] Downloading/Repairing: You Will Be Healed Sylvia
+[2026-11-01 08:29:02] [1414/1499] Downloading/Repairing: You Will Smile Today Obi Shine
+[2026-11-01 08:29:02] [1415/1499] Downloading/Repairing: You Ll Be Healed
+[2026-11-01 08:29:02] [1416/1499] Downloading/Repairing: You Ll Have A Miracle
+[2026-11-01 08:29:03] [1417/1499] Downloading/Repairing: You Ll Have A Testimony
+[2026-11-01 08:29:03] [1418/1499] Downloading/Repairing: Hs Oct 2026 D3 You Ll Live Again
+[2026-11-01 08:29:03] [1419/1499] Downloading/Repairing: You Re All I See
+[2026-11-01 08:29:03] [1420/1499] Downloading/Repairing: You Re In The Right Place Of His Power
+[2026-11-01 08:29:08] [1421/1499] Downloading/Repairing: You Re More Than Enough For Me
+[2026-11-01 08:29:13] [1422/1499] Downloading/Repairing: You Re The Beauty Of The Ages
+[2026-11-01 08:29:14] [1423/1499] Downloading/Repairing: You Re The Beauty Of The Ages 2
+[2026-11-01 08:29:14] [1424/1499] Downloading/Repairing: You Re The Father Of Light
+[2026-11-01 08:29:14] [1425/1499] Downloading/Repairing: Hs Oct 2026 D2 You Re The Father Of Light
+[2026-11-01 08:29:14] [1426/1499] Downloading/Repairing: You Re The King Of Glory
+[2026-11-01 08:29:14] [1427/1499] Downloading/Repairing: You Re The Only One Like You
+[2026-11-01 08:29:15] [1428/1499] Downloading/Repairing: You Ve Established Our Lives
+[2026-11-01 08:29:15] [1431/1499] Downloading/Repairing: Your Boundless Love Oge
+[2026-11-01 08:29:15] [1433/1499] Downloading/Repairing: Your Dominion Is For Eternity 2
+[2026-11-01 08:29:15] [1438/1499] Downloading/Repairing: Your Imperial Majesty Simeon Rich
+[2026-11-01 08:29:15] [1441/1499] Downloading/Repairing: Hs Oct 2026 D2 Your Love Has No Measure
+[2026-11-01 08:29:16] [1443/1499] Downloading/Repairing: Your Love Is Great Sammie Loveworld Singers
+[2026-11-01 08:29:16] [1450/1499] Downloading/Repairing: Your Name Is Higher Treasure
+[2026-11-01 08:29:16] [1453/1499] Downloading/Repairing: Your Name Is The Biggest Faith Ejura
+[2026-11-01 08:29:16] [1456/1499] Downloading/Repairing: Your Name Lord 2
+[2026-11-01 08:29:16] [1457/1499] Downloading/Repairing: Your Name Lord Alex
+[2026-11-01 08:29:17] [1458/1499] Downloading/Repairing: Your Name Lord Alex Loveworld Singers
+[2026-11-01 08:29:17] [1461/1499] Downloading/Repairing: Hs Oct 2026 D1 Your Reign Is Forever
+[2026-11-01 08:29:17] [1463/1499] Downloading/Repairing: Your Sovereignty Is Forever Vashuan
+[2026-11-01 08:29:17] [1469/1499] Downloading/Repairing: Your Word Is Eternal Blessing
+[2026-11-01 08:29:20] [1471/1499] Downloading/Repairing: Your Word Is Our Wisdom 2
+[2026-11-01 08:29:20] [1472/1499] Downloading/Repairing: Your Word Is Our Wisdom Vanessa
+[2026-11-01 08:29:20] [1476/1499] Downloading/Repairing: Your Word My Assurance Daverock
+[2026-11-01 08:29:20] [1478/1499] Downloading/Repairing: Hs Oct 2026 D1 Your Word Will Never Fail
+[2026-11-01 08:29:21] [1479/1499] Downloading/Repairing: Your Word My Assurance
+[2026-11-01 08:29:21] [1480/1499] Downloading/Repairing: Your Word S Eternal
+[2026-11-01 08:29:21] [1481/1499] Downloading/Repairing: Hs Oct 2026 D1 Yours Alone Is The Greatness
+[2026-11-01 08:29:21] [1493/1499] Downloading/Repairing: Loveworld Singers Renditions — 6-Song Compilation
+[2026-11-01 08:29:24] [1499/1499] Downloading/Repairing: You're The King Who Reigns Forever
+[2026-11-01 08:29:26] === Execution Complete ===
+[2026-11-01 08:29:26] Summary -> Downloaded/Repaired: 580 | Valid (Skipped): 919 | Errors: 0
